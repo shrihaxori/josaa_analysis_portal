@@ -8,10 +8,10 @@ def index(request):
     return render(request, "portal/index.html")
 
 def charts(request):
-    return render(request, "portal/index.html")
+    return render(request, "portal/charts.html")
 
 def predict(request):
-    return render(request, "portal/index.html")
+    return render(request, "portal/predictor.html")
 
 def contact(request):
     return render(request, "portal/contact.html")
