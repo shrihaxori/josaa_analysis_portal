@@ -14,4 +14,4 @@ def predict(request):
     return render(request, "portal/index.html")
 
 def contact(request):
-    return render(request, "portal/index.html")
+    return render(request, "portal/contact.html")
