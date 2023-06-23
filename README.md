@@ -1,5 +1,4 @@
 # josaa_analysis_portal
-## Steps to implement this code
 
 1. Pre-requisites
    1. Install pip
