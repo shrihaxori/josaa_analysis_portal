@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--white);
+    background-color: white;
     font-family: "Poppins", sans-serif;
 }
 a{
@@ -33,7 +33,7 @@ ul{
     background-color: var(--black);
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: sticky;
-    top: 100px;
+    
     width: 100%;
 }
 /* Logo */
@@ -122,16 +122,10 @@ ul{
     top:0;
 }
 
-
-
-
-
-
-/* Responsiveness */
 @media (min-width: 768px) {
     .nav{
         max-height: none;
-        top: 0;
+        top: 0px;
         position: sticky;
         float: right;
         width: fit-content;
@@ -141,7 +135,7 @@ ul{
         float: left;
     }
     #active{
-        text-decoration: underline var(--orange) 2px solid;
+        text-decoration: underline var(--white) 2px solid;
         text-underline-offset: 15px;
     }
     .menu a:hover{
@@ -151,4 +145,29 @@ ul{
         display: none;
     }
 }
+
+.drop{
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 16px;
+    background-color: white;
+}
+select{
+    border: 1px solid var(--gray);
+    width: 200px; 
+	text-overflow: ""; 
+	color: var(--black);
+	padding: 5px;
+}
+label[for=insti]{
+    padding:14px 16px;
+}
+.dropdown{
+    padding: 14px 16px;
+}
+
+.dropdown option:hover{
+    background-color: var(--white);
+}
+
 
