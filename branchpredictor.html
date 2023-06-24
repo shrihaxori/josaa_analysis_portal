@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Analytics</title>
+    <link rel="stylesheet" href="branchpredictor.css">
+</head>
+<body>
+    <div class="header">
+        <h1>JEE Analytics</h1>
+        <span class="menu-toggle">☰</span>
+        <ul>
+            <li>Home</li>
+            <li>Charts</li>
+            <li class="active">Branch Predictor</li>
+            <li id="last">Contact</li>
+        </ul>
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+          document.querySelector('.header').classList.toggle('show-menu');
+        });
+        
+        document.querySelector('.header h1').addEventListener('click', function() {
+          window.location.href = 'home.html';
+        });
+        
+        let menuItems = document.querySelectorAll('.header li');
+        
+        menuItems.forEach(function(menuItem) {
+          menuItem.addEventListener('click', function() {
+              window.location.href = menuItem.textContent.toLowerCase().replace(' ', '') + '.html';
+          });
+        });
+    </script>
+</body>
+</html>
