@@ -70,7 +70,7 @@ body {
     .menu-toggle {
         display: block;
         cursor: pointer;
-        font-size: 24px;
+        font-size: 30px;
         margin-right: 40px;
     }
     .header ul {
@@ -81,7 +81,7 @@ body {
         left: 0;
         width: 100%;
         height: calc(100% - 70px);
-        background-color: #e6f2ff ;
+        background-color: #e6f2ff;
         padding-top: 20px;
     }
     .header li{
@@ -100,3 +100,79 @@ body {
         display:flex
     }
 }
+
+
+
+/* Dropdown boxes */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .dropdown-box {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    /*border: 1px solid #ddd;*/
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: right;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    max-height: 150px;
+    z-index: 1;
+  }
+
+  input[type=text]{
+    cursor: pointer;
+    padding: 8px;
+
+    
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-menu a.selected {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  /*
+  .dropdown-arrow {
+    margin-left: 118px;
+  }*/
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .dropdown {
+      margin: 10px auto;
+    }
+  }
