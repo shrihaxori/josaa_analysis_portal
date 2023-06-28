@@ -102,22 +102,51 @@ body {
     }
 }
 
+/*  */
+
+.container-year {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 1px 1px 5px 0px #c1cbd6;
+  border: 1px #c1cbd6;
+  margin: 0px 30px;
+  margin-top: 110px;
+  padding: 20px 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.radio-group {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 6px 10px;
+}
+
+.radio-group input {
+  margin-left: 10px;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+
 
 
 /* Dropdown boxes */
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
     justify-content: space-around;
+    box-shadow: 1px 1px 5px 0px #c1cbd6;
+    border: 1px #c1cbd6;
+    margin: 30px;    
+    padding: 20px 0px;
 }
 
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;  
-}
-  
 .dropdown {
     position: relative;
     display: inline-block;
@@ -128,7 +157,6 @@ body {
     display: inline-flex;
     align-items: center;
     padding: 6px 10px;
-    /*border: 1px solid #ddd;*/
 }
   
 .dropdown-menu {
@@ -154,10 +182,10 @@ input[type=text]{
     position: absolute;
     cursor: pointer;
     top: 50%;
-    right: 20px; /* Adjust the right position as needed */
+    right: 20px;
     transform: translateY(-50%);
-    font-size: 16px; /* Adjust the size of the arrow */
-    color: #333; /* Adjust the color of the arrow */
+    font-size: 16px;
+    color: #333;
 }
   
 .dropdown-menu.show {
@@ -177,13 +205,13 @@ input[type=text]{
 }
   
 .dropdown-menu a.selected {
-    background-color: #4CAF50;
+    background-color: var(--blue);
     color: #fff;
 }
 
   
 @media (max-width: 768px) {
-  .container, .container2 {
+  .container {
       flex-direction: column;
   }
     
