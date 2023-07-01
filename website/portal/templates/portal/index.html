@@ -27,7 +27,13 @@
             </ul>
         </nav>
     </header>
-
+    <body>
+        <ul>
+            {% for object in objects %}
+            <li>{{ object.program_name }}</li>
+            {% endfor%}
+        </ul>
+    </body>>
     
     
 </body>
