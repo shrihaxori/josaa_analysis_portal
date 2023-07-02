@@ -1,0 +1,178 @@
+:root{
+    --white: #f9f9f9;
+    --black: #36383F;
+    --gray: #85888C;
+    --red: #f44336;
+    --green: #4caf50;
+    --orange: #ff9800;
+    --blue: #2196f3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: #1f2532;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    box-shadow: 1px 1px 5px 0px var(--gray);
+}
+.header h1 {
+    margin: 10px;
+    cursor: pointer;
+}
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.header #last{
+    margin-right: 30px;
+}
+.header li {
+    margin: 0px 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+.header li:hover {
+    background-color: #4c5155;
+}
+.header li.active {
+    text-decoration: underline 2px solid;
+    text-underline-offset: 15px;
+    font-weight: bold;
+}
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        z-index: 1;
+        
+    }
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        margin-right: 40px;
+    }
+    .header ul {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 70px);
+        background-color: #e6f2ff;
+        padding-top: 20px;
+    }
+    .header li{
+        transition: background-color 0.3s ease;
+        color: var(--black)
+    }
+    .header li:hover {
+        background-color: #c1cbd6;
+    }
+    .header li.active {
+        text-decoration: underline 2px solid;
+        text-underline-offset: 15px;
+        font-weight: bold;
+    }
+    .show-menu ul {
+        display:flex
+    }
+}
+
+
+
+/* Dropdown boxes */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .dropdown-box {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    /*border: 1px solid #ddd;*/
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: right;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+    max-height: 150px;
+    z-index: 1;
+  }
+
+  input[type=text]{
+    cursor: pointer;
+    padding: 8px;
+
+    
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-menu a.selected {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  /*
+  .dropdown-arrow {
+    margin-left: 118px;
+  }*/
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .dropdown {
+      margin: 10px auto;
+    }
+  }
