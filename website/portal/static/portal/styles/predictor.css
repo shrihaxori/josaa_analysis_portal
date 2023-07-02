@@ -219,3 +219,42 @@ input[type=text]{
       margin: 10px auto;
   }
 }
+
+.table-container {
+    display: block;
+    width: auto;
+    overflow-x: scroll;
+    margin: 30px;    
+    padding: 20px 0px;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px #c1cbd6;
+}
+  
+th,td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #A9A9A9;
+}
+  
+th {
+    background-color: #F5F5F5;
+}
+  
+.pagination {
+    margin-top: 10px;
+    text-align: center;
+}
+  
+.pagination-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    display: inline-block;
+}
+  
+.pagination-button.active {
+    background-color: lightgrey;
+}

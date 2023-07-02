@@ -1,12 +1,11 @@
 {% load static %}
-<link rel="stylesheet" href="{% static 'portal/styles/predictor.css' %}">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JEE Analytics</title>
-    <link rel="stylesheet" href="branchpredictor.css">
+    <link rel="stylesheet" href="{% static 'portal/styles/predictor.css' %}">
 </head>
 <body>
   <div class="header">
@@ -259,9 +258,177 @@
         }
       });
   </script>
+  
+  <div class="table-container">
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Institute</th>
+          <th>Academic Program Name</th>
+          <th>Duration</th>
+          <th>Quota</th>
+          <th>Seat Type</th>
+          <th>Gender</th>
+          <th>Opening Rank</th>
+          <th>Closing Rank</th>
+          <th>Year</th>
+          <th>Round</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table rows will be dynamically populated here -->
+      </tbody>
+    </table>
 
+    <div class="pagination">
+      <button id="btn-first" class="pagination-button">&lt;&lt;</button>
+      <button id="btn-prev" class="pagination-button">&lt;</button>
+      <div id="pagination-numbers"></div>
+      <button id="btn-next" class="pagination-button">&gt;</button>
+      <button id="btn-last" class="pagination-button">&gt;&gt;</button>
+    </div>
   </div>
+  <script>
+    // Sample data for the table rows
+    const data = [
+    [1, 'Institute 1', 'Program 1', '4 years', 'General', 'Regular', 'Male', 100, 500, 2022, 'Round 1'],
+    [2, 'Institute 2', 'Program 2', '3 years', 'OBC', 'Quota-based', 'Female', 200, 600, 2022, 'Round 1'],
+    // ... more rows ...
+    ];
 
+    const table = document.getElementById('data-table');
+    const tbody = table.getElementsByTagName('tbody')[0];
+    const paginationButtons = document.getElementsByClassName('pagination-button');
+    const paginationNumbers = document.getElementById('pagination-numbers');
+    const rowsPerPage = 50;
+    let currentPage = 1;
+
+    function renderTableRows() {
+    const startIndex = (currentPage - 1) * rowsPerPage;
+    const endIndex = startIndex + rowsPerPage;
+    const rows = data.slice(startIndex, endIndex);
+
+    // Clear existing rows
+    tbody.innerHTML = '';
+
+    // Populate table with rows
+    rows.forEach(rowData => {
+        const row = document.createElement('tr');
+        rowData.forEach(cellData => {
+        const cell = document.createElement('td');
+        cell.textContent = cellData;
+        row.appendChild(cell);
+        });
+        tbody.appendChild(row);
+    });
+
+    // Disable/enable pagination buttons based on current page
+    const maxPages = Math.ceil(data.length / rowsPerPage);
+    paginationButtons[0].disabled = currentPage === 1;
+    paginationButtons[1].disabled = currentPage === 1;
+    paginationButtons[2].disabled = currentPage === maxPages;
+    paginationButtons[3].disabled = currentPage === maxPages;
+
+    // Render page numbers
+    paginationNumbers.innerHTML = '';
+
+    // Calculate page numbers to display
+    const pageNumbers = calculatePageNumbers(currentPage, maxPages);
+
+    // First and previous page buttons
+    if (pageNumbers[0] > 1) {
+        paginationNumbers.appendChild(createPageButton(1));
+        if (pageNumbers[0] > 2) {
+        paginationNumbers.appendChild(createPageButton(pageNumbers[0] - 1, false, '...'));
+        }
+    }
+
+    // Page numbers
+    pageNumbers.forEach(pageNumber => {
+        paginationNumbers.appendChild(createPageButton(pageNumber, pageNumber === currentPage));
+    });
+
+    // Next and last page buttons
+    if (pageNumbers[pageNumbers.length - 1] < maxPages) {
+        if (pageNumbers[pageNumbers.length - 1] < maxPages - 1) {
+        paginationNumbers.appendChild(createPageButton(pageNumbers[pageNumbers.length - 1] + 1, false, '...'));
+        }
+        paginationNumbers.appendChild(createPageButton(maxPages));
+    }
+    }
+
+    function calculatePageNumbers(currentPage, maxPages) {
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(maxPages, currentPage + 2);
+
+    if (endPage - startPage < 4) {
+        if (startPage === 1) {
+        endPage = Math.min(endPage + (4 - (endPage - startPage)), maxPages);
+        } else if (endPage === maxPages) {
+        startPage = Math.max(startPage - (4 - (endPage - startPage)), 1);
+        }
+    }
+
+    const pageNumbers = [];
+    for (let i = startPage; i <= endPage; i++) {
+        pageNumbers.push(i);
+    }
+    return pageNumbers;
+    }
+
+    function createPageButton(pageNumber, isActive = false, text = '') {
+    const button = document.createElement('button');
+    button.classList.add('pagination-button');
+    if (isActive) {
+        button.classList.add('active');
+    }
+    button.textContent = text !== '' ? text : pageNumber;
+    button.addEventListener('click', () => goToPage(pageNumber));
+    return button;
+    }
+
+    function goToPage(pageNumber) {
+    currentPage = pageNumber;
+    renderTableRows();
+    }
+
+    function goToFirstPage() {
+    currentPage = 1;
+    renderTableRows();
+    }
+
+    function goToPreviousPage() {
+    if (currentPage > 1) {
+        currentPage--;
+        renderTableRows();
+    }
+    }
+
+    function goToNextPage() {
+    const maxPages = Math.ceil(data.length / rowsPerPage);
+    if (currentPage < maxPages) {
+        currentPage++;
+        renderTableRows();
+    }
+    }
+
+    function goToLastPage() {
+    const maxPages = Math.ceil(data.length / rowsPerPage);
+    currentPage = maxPages;
+    renderTableRows();
+    }
+
+    // Add event listeners to pagination buttons
+    paginationButtons[0].addEventListener('click', goToFirstPage);
+    paginationButtons[1].addEventListener('click', goToPreviousPage);
+    paginationButtons[2].addEventListener('click', goToNextPage);
+    paginationButtons[3].addEventListener('click', goToLastPage);
+
+    // Render initial table
+    renderTableRows();
+
+  </script>  
 
 </body>
 </html>
