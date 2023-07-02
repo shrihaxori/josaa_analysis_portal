@@ -35,7 +35,7 @@
           });
         });
   </script>
-
+ 
   <div class="container-year">
     <div class="dropdown">
       <div class="dropdown-box">
@@ -54,7 +54,7 @@
         <!-- Add more options as needed -->
       </div>
     </div>
-
+ 
     <div class="radio-group">
       <span class="name">College : </span>
       <input type="radio" id="college-iits" name="college" value="IITs" checked>
@@ -75,10 +75,10 @@
   <script>
     // Select the College radio buttons
     const collegeRadioButtons = document.querySelectorAll('input[name="college"]');
-
+ 
     // Select the Quota radio group
     const quotaGroup = document.querySelector('.quota-group');
-
+ 
     // Add an event listener to each College radio button
     collegeRadioButtons.forEach((button) => {
       button.addEventListener('change', (event) => {
@@ -91,7 +91,7 @@
       });
     });
   </script>
-
+ 
   <div class="container">
       <div class="dropdown">
         <div class="dropdown-box">
@@ -149,7 +149,7 @@
           <!-- Add more options as needed -->
         </div>
       </div>
-
+ 
       <div class="dropdown">
         <div class="dropdown-box">
           <span class="name">Institute 4 :</span>
@@ -168,7 +168,7 @@
           <!-- Add more options as needed -->
         </div>
       </div>
-
+ 
       <div class="dropdown">
         <div class="dropdown-box">
           <span class="name">Institute 5 :</span>
@@ -187,7 +187,7 @@
           <!-- Add more options as needed -->
         </div>
       </div>
-
+ 
       <div class="dropdown">
         <div class="dropdown-box">
           <span class="name">Institute 6 :</span>
@@ -280,7 +280,7 @@
         <!-- Table rows will be dynamically populated here -->
       </tbody>
     </table>
-
+ 
     <div class="pagination">
       <button id="btn-first" class="pagination-button">&lt;&lt;</button>
       <button id="btn-prev" class="pagination-button">&lt;</button>
@@ -296,22 +296,22 @@
     [2, 'Institute 2', 'Program 2', '3 years', 'OBC', 'Quota-based', 'Female', 200, 600, 2022, 'Round 1'],
     // ... more rows ...
     ];
-
+ 
     const table = document.getElementById('data-table');
     const tbody = table.getElementsByTagName('tbody')[0];
     const paginationButtons = document.getElementsByClassName('pagination-button');
     const paginationNumbers = document.getElementById('pagination-numbers');
     const rowsPerPage = 50;
     let currentPage = 1;
-
+ 
     function renderTableRows() {
     const startIndex = (currentPage - 1) * rowsPerPage;
     const endIndex = startIndex + rowsPerPage;
     const rows = data.slice(startIndex, endIndex);
-
+ 
     // Clear existing rows
     tbody.innerHTML = '';
-
+ 
     // Populate table with rows
     rows.forEach(rowData => {
         const row = document.createElement('tr');
@@ -322,20 +322,20 @@
         });
         tbody.appendChild(row);
     });
-
+ 
     // Disable/enable pagination buttons based on current page
     const maxPages = Math.ceil(data.length / rowsPerPage);
     paginationButtons[0].disabled = currentPage === 1;
     paginationButtons[1].disabled = currentPage === 1;
     paginationButtons[2].disabled = currentPage === maxPages;
     paginationButtons[3].disabled = currentPage === maxPages;
-
+ 
     // Render page numbers
     paginationNumbers.innerHTML = '';
-
+ 
     // Calculate page numbers to display
     const pageNumbers = calculatePageNumbers(currentPage, maxPages);
-
+ 
     // First and previous page buttons
     if (pageNumbers[0] > 1) {
         paginationNumbers.appendChild(createPageButton(1));
@@ -343,12 +343,12 @@
         paginationNumbers.appendChild(createPageButton(pageNumbers[0] - 1, false, '...'));
         }
     }
-
+ 
     // Page numbers
     pageNumbers.forEach(pageNumber => {
         paginationNumbers.appendChild(createPageButton(pageNumber, pageNumber === currentPage));
     });
-
+ 
     // Next and last page buttons
     if (pageNumbers[pageNumbers.length - 1] < maxPages) {
         if (pageNumbers[pageNumbers.length - 1] < maxPages - 1) {
@@ -357,11 +357,11 @@
         paginationNumbers.appendChild(createPageButton(maxPages));
     }
     }
-
+ 
     function calculatePageNumbers(currentPage, maxPages) {
     let startPage = Math.max(1, currentPage - 2);
     let endPage = Math.min(maxPages, currentPage + 2);
-
+ 
     if (endPage - startPage < 4) {
         if (startPage === 1) {
         endPage = Math.min(endPage + (4 - (endPage - startPage)), maxPages);
@@ -369,14 +369,14 @@
         startPage = Math.max(startPage - (4 - (endPage - startPage)), 1);
         }
     }
-
+ 
     const pageNumbers = [];
     for (let i = startPage; i <= endPage; i++) {
         pageNumbers.push(i);
     }
     return pageNumbers;
     }
-
+ 
     function createPageButton(pageNumber, isActive = false, text = '') {
     const button = document.createElement('button');
     button.classList.add('pagination-button');
@@ -387,24 +387,24 @@
     button.addEventListener('click', () => goToPage(pageNumber));
     return button;
     }
-
+ 
     function goToPage(pageNumber) {
     currentPage = pageNumber;
     renderTableRows();
     }
-
+ 
     function goToFirstPage() {
     currentPage = 1;
     renderTableRows();
     }
-
+ 
     function goToPreviousPage() {
     if (currentPage > 1) {
         currentPage--;
         renderTableRows();
     }
     }
-
+ 
     function goToNextPage() {
     const maxPages = Math.ceil(data.length / rowsPerPage);
     if (currentPage < maxPages) {
@@ -412,23 +412,23 @@
         renderTableRows();
     }
     }
-
+ 
     function goToLastPage() {
     const maxPages = Math.ceil(data.length / rowsPerPage);
     currentPage = maxPages;
     renderTableRows();
     }
-
+ 
     // Add event listeners to pagination buttons
     paginationButtons[0].addEventListener('click', goToFirstPage);
     paginationButtons[1].addEventListener('click', goToPreviousPage);
     paginationButtons[2].addEventListener('click', goToNextPage);
     paginationButtons[3].addEventListener('click', goToLastPage);
-
+ 
     // Render initial table
     renderTableRows();
-
+ 
   </script>  
-
+ 
 </body>
 </html>

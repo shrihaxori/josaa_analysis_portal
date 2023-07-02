@@ -7,14 +7,14 @@
     --orange: #ff9800;
     --blue: #2196f3;
 }
-
+ 
 body {
     margin: 0;
     padding: 0;
     font-family: arial, sans-serif;
     font-weight: 500;
 }
-
+ 
 .header {
     position: fixed;
     top: 0;
@@ -39,7 +39,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-
+ 
 }
 .header #last{
     margin-right: 30px;
@@ -62,7 +62,7 @@ body {
 .menu-toggle {
     display: none;
 }
-
+ 
 @media (max-width: 768px) {
     .header {
         z-index: 1;
@@ -101,9 +101,9 @@ body {
         display:flex
     }
 }
-
+ 
 /*  */
-
+ 
 .container-year {
   display: flex;
   flex-wrap: wrap;
@@ -117,25 +117,25 @@ body {
   align-items: baseline;
   justify-content: space-around;
 }
-
+ 
 .radio-group {
   position: relative;
   display: inline-block;
   margin: 10px;
   padding: 6px 10px;
 }
-
+ 
 .radio-group input {
   margin-left: 10px;
 }
-
+ 
 .radio-group label {
   margin-right: 10px;
 }
-
-
-
-
+ 
+ 
+ 
+ 
 /* Dropdown boxes */
 .container {
     display: flex;
@@ -146,7 +146,7 @@ body {
     margin: 30px;    
     padding: 20px 0px;
 }
-
+ 
 .dropdown {
     position: relative;
     display: inline-block;
@@ -170,14 +170,14 @@ body {
     z-index: 1;
     right: 0;
 }
-
+ 
 input[type=text]{
     cursor: pointer;
     padding: 8px;
     width: 185px;;
     margin-left: 10px;
 }
-
+ 
 .arrow {
     position: absolute;
     cursor: pointer;
@@ -208,7 +208,7 @@ input[type=text]{
     background-color: var(--blue);
     color: #fff;
 }
-
+ 
   
 @media (max-width: 768px) {
   .container {
@@ -219,7 +219,7 @@ input[type=text]{
       margin: 10px auto;
   }
 }
-
+ 
 .table-container {
     display: block;
     width: auto;
