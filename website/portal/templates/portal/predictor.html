@@ -36,22 +36,46 @@
         });
   </script>
  
+      <form method = 'GET' action = {% url 'predict' %}
+      <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="">Select</option>
+            {% for value in category_values %}
+                <option value="{{ value }}" {% if value == request.GET.category %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            {% for value in gender_values %}
+                <option value="{{ value }}" {% if value == request.GET.gender %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="institute">Institute:</label>
+        <select id="institute" name="institute">
+            <option value="">Select</option>
+            {% for value in institute_values %}
+                <option value="{{ value }}" {% if value == request.GET.institute %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <button type="submit">Apply Filters</button> 
+      </form>
+ <!---->
   <div class="container-year">
     <div class="dropdown">
       <div class="dropdown-box">
-        <span class="name">Year :</span>
-        <input type="text" placeholder = "2022" class="selected-option" readonly />
+        <label for="year" class="name">Year :</label>
+        <input type="text" placeholder = "All" class="selected-option" readonly />
         <span class="arrow">&#9660;</span>
       </div>
       <div class="dropdown-menu">
-        <a href="#" class="selected">2022</a>
-        <a href="#">2021</a>
-        <a href="#">2020</a>
-        <a href="#">2019</a>
-        <a href="#">2018</a>
-        <a href="#">2017</a>
-        <a href="#">2016</a>
-        <!-- Add more options as needed -->
+        <a href="#" class="selected">All</a>
+        {% for year in year_values %}
+          <option value="{{year}}" {% if value == request.GET.year %}selected{% endif %}>{{ year }}</option>
+        {% endfor %}
       </div>
     </div>
  
@@ -61,16 +85,24 @@
       <label for="college-iits">IIT</label>
       <input type="radio" id="college-nits" name="college" value="NITs">
       <label for="college-nits">NIT</label>
+      <input type="radio" id="college-iiits" name="college" value="IIITs">
+      <label for="college-nits">IIIT</label>
     </div>
-  
-    <!-- Quota radio buttons (initially hidden) -->
-    <div class="radio-group quota-group" style="display:none">
-      <span class="name">Quota : </span>
-      <input type="radio" id="quota-home-state" name="quota" value="Home State" checked>
-      <label for="quota-home-state">Home State</label>
-      <input type="radio" id="quota-other-state" name="quota" value="Other State">
-      <label for="quota-other-state">Other State</label>
+
+    <div class="dropdown quota-group" style="display:none">
+      <div class="dropdown-box">
+        <label for = 'quota' class="name">Quota :</span>
+        <input type="text" placeholder = "All" class="selected-option" readonly />
+        <span class="arrow">&#9660;</span>
+      </div>
+      <div class="dropdown-menu">
+        <a href="#" class="selected">All</a>
+        {% for quota in quota_values %}
+          <option value="{{quota}}" {% if value == request.GET.quota %}selected{% endif %}>{{ quota }}</option>
+        {% endfor %}
+      </div>
     </div>
+    
   </div>
   <script>
     // Select the College radio buttons
@@ -89,13 +121,28 @@
           quotaGroup.style.display = 'none';
         }
       });
-    });
+    }); 
   </script>
  
   <div class="container">
-      <div class="dropdown">
+      <div class="dropdown" id="left">
         <div class="dropdown-box">
-          <span class="name">Institute 1 :</span>
+          <label for = 'institute' class="name">Institute :</label>
+          <input type="text" placeholder = "All" class="selected-option" readonly />
+          <span class="arrow">&#9660;</span>
+        </div>
+        <div class="dropdown-menu">
+          <a href="#" class="selected">All</a>
+          {% for institute in institute_values %}
+            <option value="{{institute}}" {% if value == request.GET.institute %}selected{% endif %}>{{ institute }}</option>
+          {% endfor %}
+          <!-- Add more options as needed -->
+        </div>
+      </div>
+  
+      <div class="dropdown" id="middle">
+        <div class="dropdown-box">
+          <span class="name">Degree :</span>
           <input type="text" placeholder = "All" class="selected-option" readonly />
           <span class="arrow">&#9660;</span>
         </div>
@@ -112,28 +159,39 @@
         </div>
       </div>
   
-      <div class="dropdown">
+      <div class="dropdown" id="right">
         <div class="dropdown-box">
-          <span class="name">Institute 2 :</span>
+          <label for = "gender" class="name">Gender :</label>
           <input type="text" placeholder = "All" class="selected-option" readonly />
           <span class="arrow">&#9660;</span>
         </div>
         <div class="dropdown-menu">
           <a href="#" class="selected">All</a>
-          <a href="#">NIT Arunachal Pradesh</a>
-          <a href="#">Option 2</a>
-          <a href="#">Option 3</a>
-          <a href="#">Option 4</a>
-          <a href="#">Option 5</a>
-          <a href="#">Option 6</a>
-          <a href="#">Option 7</a>
+          {% for gender in gender_values %}
+            <option value="{{gender}}" {% if value == request.GET.gender %}selected{% endif %}>{{ gender }}</option>
+          {% endfor %}
           <!-- Add more options as needed -->
         </div>
       </div>
-  
-      <div class="dropdown">
+ 
+      <div class="dropdown" id="left">
         <div class="dropdown-box">
-          <span class="name">Institute 3 :</span>
+          <label for = "program" class="name">Program :</span>
+          <input type="text" placeholder = "All" class="selected-option" readonly />
+          <span class="arrow">&#9660;</span>
+        </div>
+        <div class="dropdown-menu">
+          <a href="#" class="selected">All</a>
+          {% for program  in program_values %}
+            <option value="{{program}}" {% if value == request.GET.program %}selected{% endif %}>{{ program }}</option>
+          {% endfor %}
+          <!-- Add more options as needed -->
+        </div>
+      </div>
+ 
+      <div class="dropdown" id="middle">
+        <div class="dropdown-box">
+          <span class="name">Duration :</span>
           <input type="text" placeholder = "All" class="selected-option" readonly />
           <span class="arrow">&#9660;</span>
         </div>
@@ -150,59 +208,16 @@
         </div>
       </div>
  
-      <div class="dropdown">
+      <div class="dropdown" id="right">
         <div class="dropdown-box">
-          <span class="name">Institute 4 :</span>
+          <label for = "category" class="name">Seat Type :</label>
           <input type="text" placeholder = "All" class="selected-option" readonly />
           <span class="arrow">&#9660;</span>
         </div>
         <div class="dropdown-menu">
-          <a href="#" class="selected">All</a>
-          <a href="#">NIT Arunachal Pradesh</a>
-          <a href="#">Option 2</a>
-          <a href="#">Option 3</a>
-          <a href="#">Option 4</a>
-          <a href="#">Option 5</a>
-          <a href="#">Option 6</a>
-          <a href="#">Option 7</a>
-          <!-- Add more options as needed -->
-        </div>
-      </div>
- 
-      <div class="dropdown">
-        <div class="dropdown-box">
-          <span class="name">Institute 5 :</span>
-          <input type="text" placeholder = "All" class="selected-option" readonly />
-          <span class="arrow">&#9660;</span>
-        </div>
-        <div class="dropdown-menu">
-          <a href="#" class="selected">All</a>
-          <a href="#">NIT Arunachal Pradesh</a>
-          <a href="#">Option 2</a>
-          <a href="#">Option 3</a>
-          <a href="#">Option 4</a>
-          <a href="#">Option 5</a>
-          <a href="#">Option 6</a>
-          <a href="#">Option 7</a>
-          <!-- Add more options as needed -->
-        </div>
-      </div>
- 
-      <div class="dropdown">
-        <div class="dropdown-box">
-          <span class="name">Institute 6 :</span>
-          <input type="text" placeholder = "All" class="selected-option" readonly />
-          <span class="arrow">&#9660;</span>
-        </div>
-        <div class="dropdown-menu">
-          <a href="#" class="selected">All</a>
-          <a href="#">NIT Arunachal Pradesh</a>
-          <a href="#">Option 2</a>
-          <a href="#">Option 3</a>
-          <a href="#">Option 4</a>
-          <a href="#">Option 5</a>
-          <a href="#">Option 6</a>
-          <a href="#">Option 7</a>
+          {% for category in category_values %}
+            <option value="{{category}}" {% if value == request.GET.category %}selected{% endif %}>{{ category }}</option>
+          {% endfor %}
           <!-- Add more options as needed -->
         </div>
       </div>
@@ -238,6 +253,25 @@
             dropdownMenu.classList.remove('show');
           });
         });
+
+        const joptions = dropdown.querySelectorAll('.dropdown-menu option');
+        joptions.forEach((joption) => {
+          joption.addEventListener('click', (event) => {
+            // Update the value of the selected-option element
+            selectedOption.value = event.target.textContent;
+  
+            // Remove the selected class from all options
+            joptions.forEach((joption) => {
+              joption.classList.remove('selected');
+            });
+  
+            // Add the selected class to the clicked option
+            event.target.classList.add('selected');
+  
+            // Close the dropdown menu
+            dropdownMenu.classList.remove('show');
+          });
+        });
   
         // Add an event listener to the dropdown box
         [selectedOption, dropdownArrow].forEach((element) => {
@@ -258,28 +292,74 @@
         }
       });
   </script>
+ </form>
+
+  <div class="input-container">
+    <div class="up">
+      <label for="jee-advanced-rank">JEE Advanced Rank :</label>
+      <input type="number" id="jee-advanced-rank" min="0" placeholder="0">
+    </div>
+    <div class="down">
+      <label for="margin">Margin :</label>
+      <input type="number" id="margin" min="0" placeholder="0">
+    </div>
+  </div>
+
+  <button id="reset-button">Reset Filters</button>
+  <button onclick="getData()">Load</button>
+
+  <script>
+    var resetButton = document.querySelector('#reset-button');
+    var inputs = document.querySelectorAll('input');
+    var selectedOptions = document.querySelectorAll('.selected-option');
+
+    resetButton.addEventListener('click', function() {
+      inputs.forEach(function(input) {
+        input.value = '';
+      });
+      
+      selectedOptions.forEach(function(selectedOption) {
+        selectedOption.textContent = 'All';
+      });
+    });
+  </script>
+
+  <div class="search-container">
+    <input type="text" class="search-box" placeholder="Search by any keyword">
+    <span class="search-icon">&#9906;</span>
+  </div>
   
   <div class="table-container">
     <table id="data-table">
-      <thead>
-        <tr>
-          <th>Sr. No.</th>
-          <th>Institute</th>
-          <th>Academic Program Name</th>
-          <th>Duration</th>
-          <th>Quota</th>
-          <th>Seat Type</th>
-          <th>Gender</th>
-          <th>Opening Rank</th>
-          <th>Closing Rank</th>
-          <th>Year</th>
-          <th>Round</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Table rows will be dynamically populated here -->
-      </tbody>
+      
     </table>
+
+    <script>
+      function getTable(){
+        fetch('{% static 'portal/data/df.csv' %}')
+          .then(response => response.text())
+          .then(csvData => {
+            const rows = csvData.split('\n');
+            const table = document.getElementById('data-table');
+
+            rows.forEach(row => {
+              const cells = row.split(',');
+              const tableRow = document.createElement('tr');
+
+              cells.forEach(cell => {
+                const tableCell = document.createElement('td');
+                tableCell.textContent = cell;
+                tableRow.appendChild(tableCell);
+              });
+
+              table.appendChild(tableRow);
+            });
+          })
+          .catch(error => console.log('Error fetching data:',error));
+      }
+
+
+    </script>
  
     <div class="pagination">
       <button id="btn-first" class="pagination-button">&lt;&lt;</button>
@@ -292,8 +372,8 @@
   <script>
     // Sample data for the table rows
     const data = [
-    [1, 'Institute 1', 'Program 1', '4 years', 'General', 'Regular', 'Male', 100, 500, 2022, 'Round 1'],
-    [2, 'Institute 2', 'Program 2', '3 years', 'OBC', 'Quota-based', 'Female', 200, 600, 2022, 'Round 1'],
+    [1, '2022', 'NIT Arunachal Pradesh', 'Manufacturing Science and Engineering with M.Tech. in Industrial andSystems Engineering and Management', '5 years', 'B.Tech + M.Tech (IDD)', 'AI', 'GEN-EWS-PWD', 'Gender-Neutral', 100, 500],
+    [2, 'NIT Arunachal Pradesh', 'Program 2', '3 years', 'OBC', 'Quota-based', 'Female', 200,'Female-only (including Supernumerary)', 2022, 'Round 1'],
     // ... more rows ...
     ];
  
@@ -429,6 +509,61 @@
     renderTableRows();
  
   </script>  
- 
+  
+  <form method = 'GET' action = {% url 'predict' %}
+      <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="">Select</option>
+            {% for value in category_values %}
+                <option value="{{ value }}" {% if value == request.GET.category %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            {% for value in gender_values %}
+                <option value="{{ value }}" {% if value == request.GET.gender %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="institute">Institute:</label>
+        <select id="institute" name="institute">
+            <option value="">Select</option>
+            {% for value in institute_values %}
+                <option value="{{ value }}" {% if value == request.GET.institute %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <option value="">Select</option>
+            {% for value in year_values %}
+                <option value="{{ value }}" {% if value == request.GET.year %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="program">Program:</label>
+        <select id="program" name="program">
+            <option value="">Select</option>
+            {% for value in program_values %}
+                <option value="{{ value }}" {% if value == request.GET.program %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <button type="submit" onclick="getTable()">Apply Filters</button> 
+      </form>
+      <table id = "data-table">
+
+      </table>
+      <script>
+      async  function getTable(){
+         const response = await  fetch('{% static 'portal/data/df.csv' %}');
+         const data = await response.text();
+         console.log(data);
+        }
+  
+  
+      </script>
 </body>
 </html>

@@ -5,7 +5,8 @@ from .models import College
 from django.http import HttpResponse
 #from bs4 import BeautifulSoup
 #import requests as rt
-#import pandas as pd
+import pandas as pd
+import os
 
 
 
@@ -20,7 +21,47 @@ def charts(request):
     return render(request, "portal/charts.html")
 
 def predict(request):
-    return render(request, "portal/predictor.html")
+    df = pd.read_csv('portal/data/combinedv2.csv', low_memory=False)
+    category_values = df['Seat Type'].unique()
+    gender_values = df['Gender'].unique()
+    institute_values = df['Institute'].unique()
+    year_values = df['Year'].unique()
+    quota_values = df['Quota'].unique()
+    program_values = df['Academic Program Name'].unique()
+
+    sf1 = request.GET.get('category')
+    sf2 = request.GET.get('gender')
+    sf3 = request.GET.get('institute')
+    sf4 = request.GET.get('year')
+    sf5 = request.GET.get('quota')
+    sf6 = request.GET.get('program')
+     
+    if sf1:
+        df = df[df['Seat Type']==sf1]
+    if sf2:
+        df = df[df['Gender']==sf2]
+    if sf3:
+        df = df[df['Institute']==sf3]
+    if sf4:
+        sf4 = int(sf4)
+        df = df[df['Year']==sf4]
+    if sf5:
+        df = df[df['Quota']==sf5]
+    if sf6:
+        df = df[df['Academic Program Name']==sf6]
+
+    print(sf1, sf2, sf3, sf4, sf5, sf6)
+    context = {
+        'category_values' : category_values,
+        'gender_values' : gender_values,
+        'institute_values': institute_values,
+        'year_values': year_values,
+        'quota_values': quota_values,
+        'program_values': program_values,
+    }
+    print(df)
+    df.to_csv(os.getcwd()+'/portal/static/portal/data/df.csv')
+    return render(request, "portal/table.html", context)
 
 def contact(request):
     return render(request, "portal/contact.html")
