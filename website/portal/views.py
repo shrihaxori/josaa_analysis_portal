@@ -46,7 +46,8 @@ def charts(request):
         df26 = df26[df26['Year']==sf4]
     if sf5:
         df26 = df26[df26['Academic Program Name']==sf5]
- 
+    
+    print(sf1, sf2, sf3, sf4, sf5)
     context = {
         'category_values' : category_values,
         'gender_values': gender_values,
@@ -98,7 +99,6 @@ def predict(request):
         'quota_values': quota_values,
         'program_values': program_values,
     }
-    print(df)
     df.to_csv(os.getcwd()+'/portal/static/portal/data/df.csv')
     return render(request, "portal/table.html", context)
 

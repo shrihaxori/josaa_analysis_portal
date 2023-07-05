@@ -166,8 +166,6 @@ body {
 }
   
 .dropdown-menu {
-    display: none;
-    position: absolute;
     background-color: #f9f9f9;
     width: 220px;
     border: 1px solid #ddd;
@@ -294,9 +292,17 @@ input[type=number]{
 #reset-button:hover {
     background-color: #45a049;
 }
+
+.apply {
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
+    margin-top: 50px;
+}
+  
   
 #ab {
-    background-color: purple;
+    background-color: green;
     color: white;
     padding: 12px 20px;
     border: none;

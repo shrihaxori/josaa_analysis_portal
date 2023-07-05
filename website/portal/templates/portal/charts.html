@@ -1,78 +1,95 @@
 {% load static %}
-<link rel="stylesheet" href="{% static 'portal/styles/predictor.css' %}">
  
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xlabel Predictor</title>
-    <link rel="stylesheet" href="predictor.css">
+    <title>Charts</title>
+    <link rel="stylesheet" href="{% static 'portal/styles/charts.css' %}">
 </head>
 <body>
     <!-- Navigation bar -->
-    <header class="header">
-        <!-- Logo -->
-        <a href="#" class="logo">Analytics</a>
-        <!-- Hamburger icon -->
-        <input class="side-menu" type="checkbox" id="side-menu"/>
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-        <!-- Menu -->
-        <nav class="nav">
-            <ul class="menu">
-                <li><a href="/portal/">Home</a></li>
-                <li><a href="/portal/charts/" id="active">Charts</a> </li>
-                <li><a href="/portal/predict/">Branch Predictor</a></li>
-                <li><a href="/portal/contactus/">Contact</a> </li>
-            </ul>
-        </nav>
-    </header>
- 
+    <div class="header">
+        <h1>JEE Analytics</h1>
+        <span class="menu-toggle">☰</span>
+        <ul>
+            <li ><a href="/portal">Home</a></li>
+            <li class="active"><a href="/portal/charts">Charts</a></li>
+            <li ><a href="/portal/predict">Branch Predictor</a></li>
+            <li id="last"><a href="/portal/contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+          document.querySelector('.header').classList.toggle('show-menu');
+        });
+    </script>
     
     <!-- data_template.html -->
- 
     <form method="GET" action="{% url 'charts' %}" style = "margin-top: 150px">
-        <label for="category">Category:</label>
-        <select id="category" name="category">
-            <option value="">Select</option>
-            {% for value in category_values %}
-                <option value="{{ value }}" {% if value == request.GET.category %}selected{% endif %}>{{ value }}</option>
-            {% endfor %}
-        </select>
-        <br>
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender">
-            <option value="">Select</option>
-            {% for value in gender_values %}
-                <option value="{{ value }}" {% if value == request.GET.gender %}selected{% endif %}>{{ value }}</option>
-            {% endfor %}
-        </select>
-        <br>
-        <label for="institute">Institute:</label>
-        <select id="institute" name="institute">
-            <option value="">Select</option>
-            {% for value in institute_values %}
-                <option value="{{ value }}" {% if value == request.GET.institute %}selected{% endif %}>{{ value }}</option>
-            {% endfor %}
-        </select>
-        <br>
-        <label for="program">Program:</label>
-        <select id="program" name="program">
-            <option value="">Select</option>
-            {% for value in program_values %}
-                <option value="{{ value }}" {% if value == request.GET.program %}selected{% endif %}>{{ value }}</option>
-            {% endfor %}
-        </select>
-        <br>
-        <label for="year">Year:</label>
-        <select id="year" name="year">
-            <option value="">Select</option>
-            {% for value in year_values %}
-                <option value="{{ value }}" {% if value == request.GET.year %}selected{% endif %}>{{ value }}</option>
-            {% endfor %}
-        </select>
-        <br>
-        <button type="submit">Apply Filters</button>
+        <div class="container-year">
+            <div class="dropdown">
+                <label for="category" class="dropdown-box">Category:</label>
+                <select id="category" name="category" class="dropdown-menu">
+                    <option value="">Select</option>
+                    {% for value in category_values %}
+                        <option value="{{ value }}" {% if value == request.GET.category %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+            </div>
+            
+
+            <div class="dropdown">
+                <label for="gender" class="dropdown-box">Gender:</label>
+                <select id="gender" name="gender" class="dropdown-menu">
+                    <option value="">Select</option>
+                    {% for value in gender_values %}
+                        <option value="{{ value }}" {% if value == request.GET.gender %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+            </div>
+            
+
+            <div class="dropdown">
+                <label for="institute" class="dropdown-box">Institute:</label>
+                <select id="institute" name="institute" class="dropdown-menu">
+                    <option value="">Select</option>
+                    {% for value in institute_values %}
+                        <option value="{{ value }}" {% if value == request.GET.institute %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+            </div>
+            
+
+            <div class="dropdown">
+                <label for="program" class="dropdown-box">Program:</label>
+                <select id="program" name="program" class="dropdown-menu">
+                    <option value="">Select</option>
+                    {% for value in program_values %}
+                        <option value="{{ value }}" {% if value == request.GET.program %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+            </div>
+            
+
+            <div class="dropdown">
+                <label for="year" class="dropdown-box">Year:</label>
+                <select id="year" name="year" class="dropdown-menu">
+                    <option value="">Select</option>
+                    {% for value in year_values %}
+                        <option value="{{ value }}" {% if value == request.GET.year %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+            </div>
+            
+            <button type="submit" id="lb">Apply Filters</button>
+        </div>
     </form>
  
 <table>
@@ -120,6 +137,7 @@
         const response = await fetch('{% static 'portal/data/df26.csv' %}');
         // console.log(df26)
         const data = await response.text();
+        console.log(data)
         const xlabel = [];
         const ylabel = [];
         const rows = data.split('\n').slice(1);
