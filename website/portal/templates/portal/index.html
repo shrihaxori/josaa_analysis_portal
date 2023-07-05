@@ -12,29 +12,12 @@
         <h1>JEE Analytics</h1>
         <span class="menu-toggle">☰</span>
         <ul>
-            <li>Home</li>
-            <li>Charts</li>
-            <li class="active">Branch Predictor</li>
-            <li id="last">Contact</li>
+            <li class="active"><a href="/"></a>Home</li>
+            <li><a href="/portal/charts"></a>Charts</li>
+            <li ><a href="/portal/predict"></a>Branch Predictor</li>
+            <li id="last"><a href="/portal/contact"></a>Contact Us</li>
         </ul>
     </div>
-    <script>
-        document.querySelector('.menu-toggle').addEventListener('click', function () {
-            document.querySelector('.header').classList.toggle('show-menu');
-        });
-
-        document.querySelector('.header h1').addEventListener('click', function () {
-            window.location.href = 'home.html';
-        });
-
-        let menuItems = document.querySelectorAll('.header li');
-
-        menuItems.forEach(function (menuItem) {
-            menuItem.addEventListener('click', function () {
-                window.location.href = menuItem.textContent.toLowerCase().replace(' ', '') + '.html';
-            });
-        });
-    </script>
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -43,7 +26,7 @@
             </div>
             <div class="hero-image">
                 <svg xmlns="http://www.w3.org/2000/svg">
-                    <img src="images/undraw_investing_7u74 (1).svg" alt="SVG Image">
+                    <img src="{% static 'portal/images/hero_image.svg' %}" alt="SVG Image">
                 </svg>
             </div>
         </div>
@@ -97,35 +80,35 @@
         <h2>Contact Us</h2>
         <div class="contact-grid">
             <div class="contact-tile">
-                <img src="person1.jpg" alt="A Shri Hari">
+                <img src="{% static 'portal/images/hari.jpeg' %}" alt="A Shri Hari">
                 <h3>A Shri Hari</h3>
                 <div class="contact-icons">
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="{% static 'portal/images/linkedin-icon.svg' %}" alt="LinkedIn"></a>
+                    <a href="https://github.com/shrihaxori" target="_blank"><img src="{% static 'portal/images/github-icon.svg' %}" alt="GitHub"></a>
                 </div>
             </div>
             <div class="contact-tile">
                 <img src="person2.jpg" alt="Person 2">
                 <h3>Aryan Bhushanwar</h3>
                 <div class="contact-icons">
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="{% static 'portal/images/linkedin-icon.svg' %}" alt="LinkedIn"></a>
+                    <a href="https://github.com/b-aryan" target="_blank"><img src="{% static 'portal/images/github-icon.svg' %}"alt="GitHub"></a>
                 </div>
             </div>
             <div class="contact-tile">
                 <img src="person3.jpg" alt="Person 3">
                 <h3>Dhairya Aggarwal</h3>
                 <div class="contact-icons">
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="{% static 'portal/images/linkedin-icon.svg' %}" alt="LinkedIn"></a>
+                    <a href="https://github.com/dhairyaaggarwal" target="_blank"><img src="{% static 'portal/images/github-icon.svg' %}"alt="GitHub"></a>
                 </div>
             </div>
             <div class="contact-tile">
                 <img src="person4.jpg" alt="Person 4">
                 <h3>Soham Parundekar</h3>
                 <div class="contact-icons">
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="{% static 'portal/images/linkedin-icon.svg' %}" alt="LinkedIn"></a>
+                    <a href="https://github.com/soham-parundekar" target="_blank"><img src="{% static 'portal/images/github-icon.svg' %}" alt="GitHub"></a>
                 </div>
             </div>
         </div>

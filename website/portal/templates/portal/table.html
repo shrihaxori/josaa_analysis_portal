@@ -5,8 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'portal/styles/predictor.css' %}">
+
 </head>
 <body>
+    <div class="header">
+        <h1>JEE Analytics</h1>
+        <span class="menu-toggle">☰</span>
+        <ul>
+            <li class="active"><a href="/"></a>Home</li>
+            <li><a href="/portal/charts"></a>Charts</li>
+            <li ><a href="/portal/predict"></a>Branch Predictor</li>
+            <li id="last"><a href="/portal/contact"></a>Contact Us</li>
+        </ul>
+    </div>
+
     <form method = 'GET' action = {% url 'predict' %}
       <label for="category">Category:</label>
         <select id="category" name="category">

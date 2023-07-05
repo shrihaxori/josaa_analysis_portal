@@ -332,22 +332,23 @@ svg{
   }
   
   .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .contact-tile {
+    flex: 1;
     background: #f2f2f2;
     padding: 20px;
     text-align: center;
+    margin: 2vw;
   }
   
   .contact-tile img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-bottom: 10px;
   }
   

@@ -1,7 +1,339 @@
 ,Unnamed: 0,Institute,Academic Program Name,Quota,Seat Type,Gender,Opening Rank,Closing Rank,Year,Round
-175,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3418,2022,1
-10197,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,2
-20013,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,3
-29786,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,4
-39554,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,5
-49317,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3471,2022,6
+2368,2368,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7309,8578,2022,1
+2378,2378,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4812,5611,2022,1
+2389,2389,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5987,7477,2022,1
+2399,2399,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4944,7300,2022,1
+2410,2410,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,415,589,2022,1
+2423,2423,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,596,924,2022,1
+2434,2434,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1423,1690,2022,1
+2448,2448,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1695,2196,2022,1
+2460,2460,IIT Guwahati,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4795,5836,2022,1
+2468,2468,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3402,5483,2022,1
+2478,2478,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,435,1041,2022,1
+2490,2490,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3293,4692,2022,1
+12378,2356,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7309,8753,2022,2
+12388,2366,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4894,5766,2022,2
+12399,2377,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5987,7677,2022,2
+12409,2387,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4944,7465,2022,2
+12420,2398,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,415,589,2022,2
+12433,2411,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,596,924,2022,2
+12444,2422,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1423,1690,2022,2
+12458,2436,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1695,2197,2022,2
+12469,2447,IIT Guwahati,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4795,5968,2022,2
+12477,2455,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3402,5685,2022,2
+12487,2465,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,435,1048,2022,2
+12499,2477,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3293,4832,2022,2
+22190,2352,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7309,8785,2022,3
+22200,2362,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4894,5768,2022,3
+22211,2373,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5987,7679,2022,3
+22221,2383,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4944,7491,2022,3
+22232,2394,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,415,589,2022,3
+22245,2407,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,596,924,2022,3
+22256,2418,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1423,1690,2022,3
+22270,2432,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1695,2197,2022,3
+22281,2443,IIT Guwahati,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4795,5968,2022,3
+22289,2451,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3402,5685,2022,3
+22299,2461,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,435,1048,2022,3
+22311,2473,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3293,4832,2022,3
+31963,2352,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7309,8785,2022,4
+31973,2362,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4894,5768,2022,4
+31984,2373,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5987,7679,2022,4
+31994,2383,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4944,7491,2022,4
+32005,2394,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,415,589,2022,4
+32018,2407,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,596,924,2022,4
+32029,2418,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1423,1690,2022,4
+32043,2432,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1695,2197,2022,4
+32054,2443,IIT Guwahati,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4795,5968,2022,4
+32062,2451,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3402,5685,2022,4
+32072,2461,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,435,1048,2022,4
+32084,2473,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3293,4832,2022,4
+41731,2352,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7696,8886,2022,5
+41741,2362,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4894,5821,2022,5
+41752,2373,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5987,7681,2022,5
+41762,2383,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4944,7563,2022,5
+41773,2394,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,415,589,2022,5
+41786,2407,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,596,924,2022,5
+41797,2418,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1423,1690,2022,5
+41811,2432,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1695,2197,2022,5
+41822,2443,IIT Guwahati,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4795,5968,2022,5
+41830,2451,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3402,5759,2022,5
+41840,2461,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,435,1048,2022,5
+41852,2473,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3293,4857,2022,5
+51488,2346,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,8150,10112,2022,6
+51498,2356,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5117,6144,2022,6
+51509,2367,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6544,8099,2022,6
+51519,2377,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4944,7859,2022,6
+51530,2388,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,415,589,2022,6
+51543,2401,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,596,951,2022,6
+51554,2412,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1445,1711,2022,6
+51568,2426,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1753,2387,2022,6
+51579,2437,IIT Guwahati,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5261,6320,2022,6
+51587,2445,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3402,6192,2022,6
+51597,2455,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,665,1061,2022,6
+51609,2467,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3478,5088,2022,6
+61204,2330,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7055,8042,2021,1
+61214,2340,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4063,5396,2021,1
+61224,2350,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5418,6880,2021,1
+61234,2360,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5797,6648,2021,1
+61244,2370,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,439,593,2021,1
+61258,2384,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,716,954,2021,1
+61267,2393,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1189,1737,2021,1
+61279,2405,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1800,2115,2021,1
+61290,2416,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2941,5202,2021,1
+61300,2426,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1077,2021,1
+61313,2439,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2600,4132,2021,1
+70641,2318,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7055,8268,2021,2
+70651,2328,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4063,5454,2021,2
+70661,2338,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6067,7255,2021,2
+70671,2348,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6066,6776,2021,2
+70681,2358,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,439,596,2021,2
+70695,2372,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,716,954,2021,2
+70704,2381,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1189,1738,2021,2
+70716,2393,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1800,2135,2021,2
+70727,2404,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2941,5468,2021,2
+70737,2414,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1077,2021,2
+70750,2427,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2600,4270,2021,2
+79908,2318,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7055,8268,2021,3
+79918,2328,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4063,5454,2021,3
+79928,2338,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6067,7255,2021,3
+79938,2348,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6066,6786,2021,3
+79948,2358,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,439,596,2021,3
+79962,2372,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,716,954,2021,3
+79971,2381,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1189,1738,2021,3
+79983,2393,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1800,2135,2021,3
+79994,2404,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2941,5500,2021,3
+80004,2414,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1077,2021,3
+80017,2427,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2600,4270,2021,3
+89145,2317,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7055,8268,2021,4
+89155,2327,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4063,5454,2021,4
+89165,2337,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6067,7255,2021,4
+89175,2347,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6066,6834,2021,4
+89185,2357,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,439,596,2021,4
+89199,2371,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,716,954,2021,4
+89208,2380,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1189,1738,2021,4
+89220,2392,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1800,2137,2021,4
+89231,2403,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2941,5500,2021,4
+89241,2413,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1077,2021,4
+89254,2426,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2600,4270,2021,4
+98374,2317,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7055,8291,2021,5
+98384,2327,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4063,5454,2021,5
+98394,2337,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6067,7256,2021,5
+98404,2347,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6103,6969,2021,5
+98414,2357,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,439,596,2021,5
+98428,2371,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,716,954,2021,5
+98437,2380,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1189,1740,2021,5
+98449,2392,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1800,2152,2021,5
+98460,2403,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2941,5575,2021,5
+98470,2413,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1077,2021,5
+98483,2426,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2600,4270,2021,5
+107587,2307,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7417,8954,2021,6
+107597,2317,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4234,5725,2021,6
+107607,2327,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6067,7832,2021,6
+107617,2337,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6246,7545,2021,6
+107627,2347,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,439,600,2021,6
+107641,2361,IIT Guwahati,Data Science and Artificial Intelligence (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,716,954,2021,6
+107650,2370,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1189,1891,2021,6
+107662,2382,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1805,2221,2021,6
+107673,2393,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2941,5956,2021,6
+107683,2403,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1089,2021,6
+107696,2416,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2600,4502,2021,6
+116758,2300,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5986,7943,2020,1
+116768,2310,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3879,4969,2020,1
+116778,2320,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2949,6779,2020,1
+116788,2330,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5639,6442,2020,1
+116800,2342,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,425,586,2020,1
+116815,2357,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1219,1610,2020,1
+116827,2369,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1673,1949,2020,1
+116838,2380,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3617,4514,2020,1
+116849,2391,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,587,960,2020,1
+116862,2404,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2680,3761,2020,1
+126077,2282,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6562,8164,2020,2
+126087,2292,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3879,5029,2020,2
+126097,2302,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5612,6856,2020,2
+126107,2312,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5655,6490,2020,2
+126119,2324,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,425,587,2020,2
+126133,2338,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1219,1641,2020,2
+126145,2350,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1673,1949,2020,2
+126156,2361,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3617,4713,2020,2
+126167,2372,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,641,977,2020,2
+126180,2385,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2680,3814,2020,2
+135214,2282,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6562,8164,2020,3
+135224,2292,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3879,5029,2020,3
+135234,2302,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5612,6856,2020,3
+135244,2312,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5655,6490,2020,3
+135256,2324,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,425,587,2020,3
+135270,2338,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1219,1641,2020,3
+135282,2350,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1673,1949,2020,3
+135293,2361,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3617,4713,2020,3
+135304,2372,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,641,977,2020,3
+135317,2385,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2680,3819,2020,3
+144282,2282,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6562,8164,2020,4
+144292,2292,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3879,5031,2020,4
+144302,2302,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5612,6856,2020,4
+144312,2312,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5722,6526,2020,4
+144324,2324,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,425,588,2020,4
+144338,2338,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1219,1647,2020,4
+144350,2350,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1673,1949,2020,4
+144361,2361,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3617,4790,2020,4
+144372,2372,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,641,977,2020,4
+144385,2385,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2680,3819,2020,4
+153324,2280,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6562,8233,2020,5
+153334,2290,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3879,5031,2020,5
+153344,2300,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5612,6959,2020,5
+153354,2310,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5722,6530,2020,5
+153366,2322,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,425,588,2020,5
+153380,2336,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1219,1673,2020,5
+153392,2348,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1700,1988,2020,5
+153403,2359,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3617,4790,2020,5
+153414,2370,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,641,977,2020,5
+153427,2383,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2680,3819,2020,5
+162354,2278,IIT Guwahati,Biosciences and Bioengineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,7590,8994,2020,6
+162364,2288,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3879,5722,2020,6
+162374,2298,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5612,7433,2020,6
+162384,2308,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5990,7094,2020,6
+162396,2320,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,425,588,2020,6
+162410,2334,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1219,1701,2020,6
+162422,2346,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1760,2067,2020,6
+162433,2357,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3888,5552,2020,6
+162443,2367,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,641,977,2020,6
+162456,2380,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2680,4143,2020,6
+171142,2076,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6057,7474,2019,1
+171152,2086,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3156,4902,2019,1
+171163,2097,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,6408,2019,1
+171174,2108,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4698,5495,2019,1
+171185,2119,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,1
+171197,2131,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1565,2019,1
+171210,2144,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,1897,2019,1
+171222,2156,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1617,4484,2019,1
+171231,2165,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1025,2019,1
+171243,2177,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2028,3084,2019,1
+179853,2043,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6281,7651,2019,2
+179863,2053,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4075,5163,2019,2
+179873,2063,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,6685,2019,2
+179883,2073,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4794,5844,2019,2
+179894,2084,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,2
+179905,2095,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1597,2019,2
+179918,2108,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,1947,2019,2
+179929,2119,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1617,4914,2019,2
+179938,2128,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1063,2019,2
+179950,2140,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2028,3156,2019,2
+188322,2042,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6281,7781,2019,3
+188332,2052,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4093,5166,2019,3
+188342,2062,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,6790,2019,3
+188352,2072,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4794,5868,2019,3
+188363,2083,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,3
+188374,2094,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1597,2019,3
+188387,2107,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,1974,2019,3
+188398,2118,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1617,4923,2019,3
+188407,2127,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1063,2019,3
+188419,2139,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2028,3204,2019,3
+196674,2042,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6281,7790,2019,4
+196684,2052,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4262,5189,2019,4
+196694,2062,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,6790,2019,4
+196704,2072,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4794,5893,2019,4
+196715,2083,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,4
+196726,2094,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1597,2019,4
+196739,2107,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,1991,2019,4
+196750,2118,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2440,4935,2019,4
+196759,2127,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1063,2019,4
+196771,2139,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2028,3209,2019,4
+204987,2042,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6281,7806,2019,5
+204997,2052,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4262,5189,2019,5
+205007,2062,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,6790,2019,5
+205017,2072,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4794,5893,2019,5
+205028,2083,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,5
+205039,2094,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1597,2019,5
+205052,2107,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,1991,2019,5
+205063,2118,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2440,4956,2019,5
+205072,2127,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1063,2019,5
+205084,2139,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2028,3209,2019,5
+213287,2042,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6281,7876,2019,6
+213297,2052,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4262,5254,2019,6
+213307,2062,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,6931,2019,6
+213317,2072,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4948,6144,2019,6
+213328,2083,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,6
+213339,2094,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1661,2019,6
+213352,2107,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,1992,2019,6
+213363,2118,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2440,4995,2019,6
+213372,2127,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1069,2019,6
+213384,2139,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2028,3293,2019,6
+221579,2039,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,6281,8643,2019,7
+221589,2049,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4262,5697,2019,7
+221599,2059,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4595,7685,2019,7
+221609,2069,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4948,6487,2019,7
+221620,2080,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,398,588,2019,7
+221631,2091,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1144,1729,2019,7
+221644,2104,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1345,2028,2019,7
+221655,2115,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2440,5284,2019,7
+221664,2124,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,622,1085,2019,7
+221676,2136,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2102,3417,2019,7
+229485,1684,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,7062.0,2018,1
+229493,1692,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3015.0,4382.0,2018,1
+229501,1700,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4815.0,5918.0,2018,1
+229509,1708,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3748.0,4883.0,2018,1
+229517,1716,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,552.0,2018,1
+229527,1726,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1513.0,2018,1
+229537,1736,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1812.0,2018,1
+229546,1745,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4211.0,2018,1
+229555,1754,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1016.0,2018,1
+229564,1763,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1681.0,2712.0,2018,1
+236621,1666,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,7447.0,2018,2
+236629,1674,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3705.0,4571.0,2018,2
+236637,1682,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4917.0,6424.0,2018,2
+236645,1690,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3748.0,5227.0,2018,2
+236653,1698,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,554.0,2018,2
+236663,1708,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1515.0,2018,2
+236673,1718,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1812.0,2018,2
+236682,1727,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4255.0,2018,2
+236690,1735,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1016.0,2018,2
+236699,1744,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2176.0,2865.0,2018,2
+243545,1664,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,7472.0,2018,3
+243553,1672,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3705.0,4571.0,2018,3
+243561,1680,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5032.0,6467.0,2018,3
+243569,1688,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3748.0,5249.0,2018,3
+243577,1696,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,554.0,2018,3
+243587,1706,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1515.0,2018,3
+243597,1716,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1812.0,2018,3
+243606,1725,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4255.0,2018,3
+243614,1733,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1016.0,2018,3
+243623,1742,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2176.0,2865.0,2018,3
+250354,1667,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,7487.0,2018,4
+250362,1675,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3705.0,4571.0,2018,4
+250370,1683,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5032.0,6467.0,2018,4
+250378,1691,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3748.0,5249.0,2018,4
+250386,1699,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,554.0,2018,4
+250396,1709,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1528.0,2018,4
+250406,1719,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1812.0,2018,4
+250415,1728,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4255.0,2018,4
+250423,1736,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1016.0,2018,4
+250432,1745,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2176.0,2865.0,2018,4
+257118,1666,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,7496.0,2018,5
+257126,1674,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3705.0,4571.0,2018,5
+257134,1682,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5032.0,6467.0,2018,5
+257142,1690,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3748.0,5261.0,2018,5
+257150,1698,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,554.0,2018,5
+257160,1708,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1530.0,2018,5
+257170,1718,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1812.0,2018,5
+257179,1727,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4282.0,2018,5
+257187,1735,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1023.0,2018,5
+257196,1744,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2176.0,2865.0,2018,5
+263872,1666,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,7537.0,2018,6
+263880,1674,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3705.0,4679.0,2018,6
+263888,1682,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5032.0,6694.0,2018,6
+263896,1690,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3748.0,5318.0,2018,6
+263904,1698,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,554.0,2018,6
+263914,1708,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1535.0,2018,6
+263924,1718,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1867.0,2018,6
+263933,1727,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4291.0,2018,6
+263941,1735,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1026.0,2018,6
+263950,1744,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2176.0,2886.0,2018,6
+270612,1660,IIT Guwahati,Bio Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5543.0,8265.0,2018,7
+270620,1668,IIT Guwahati,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,3970.0,4890.0,2018,7
+270628,1676,IIT Guwahati,Chemical Science and Technology (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,5032.0,7089.0,2018,7
+270636,1684,IIT Guwahati,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,4436.0,5890.0,2018,7
+270644,1692,IIT Guwahati,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,333.0,554.0,2018,7
+270654,1702,IIT Guwahati,Electronics and Communication Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1063.0,1564.0,2018,7
+270664,1712,IIT Guwahati,Electronics and Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1115.0,1923.0,2018,7
+270673,1721,IIT Guwahati,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2604.0,4451.0,2018,7
+270681,1729,IIT Guwahati,Mathematics and Computing (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,571.0,1039.0,2018,7
+270690,1738,IIT Guwahati,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2176.0,2942.0,2018,7
