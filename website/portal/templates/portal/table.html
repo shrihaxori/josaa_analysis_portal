@@ -7,43 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <table id = 'csvtable'>
-
-    </table>
-    <script>
-        async  function getTable(){
-        try{
-           const response = await  fetch('{% static 'portal/data/df.csv' %}');
-           const data = await response.text();
-           
-           console.log(data);
-           const rows = data.split('\n');
-           const table =document.getElementById('csvtable');
-           table.style.display = 'table';
-
-           table.innerHTML = '';
-
-           rows.forEach(row => {
-            const cells = row.split(',');
-            const tableRow = document.createElement('tr');
-            
-
-            cells.forEach(cell => {
-                const tableCell = document.createElement('td');
-                tableCell.textContent = cell;
-                tableRow.appendChild(tableCell);
-            });
-
-            table.appendChild(tableRow);
-           });
-          } catch (error) {
-            console.log(error);
-          }
-        }
-        const loadButton = document.getElementById('loadButton');
-        loadButton.addEventListener('click', getTable);
-    </script>
-
     <form method = 'GET' action = {% url 'predict' %}
       <label for="category">Category:</label>
         <select id="category" name="category">
@@ -69,8 +32,71 @@
             {% endfor %}
         </select>
         <br>
-        <button type="submit" id = "loadButton" >Apply Filters</button> 
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <option value="">Select</option>
+            {% for value in year_values %}
+                <option value="{{ value }}" {% if value == request.GET.year %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="quota">Quota:</label>
+        <select id="quota" name="quota">
+            <option value="">Select</option>
+            {% for value in quota_values %}
+                <option value="{{ value }}" {% if value == request.GET.quota %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="program">Program:</label>
+        <select id="program" name="program">
+            <option value="">Select</option>
+            {% for value in program_values %}
+                <option value="{{ value }}" {% if value == request.GET.program %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <button type="submit" >Apply Filters</button> 
       </form>
-
+      <button id="lb" onclick="getTable()">View</button>
+      
+    <table id = 'csvtable'>
+ 
+    </table>
+    <script>
+        async  function getTable(){
+        try{
+           const response = await  fetch('{% static 'portal/data/df.csv' %}');
+           const data = await response.text();
+           
+           console.log(data);
+           const rows = data.split('\n');
+           const table =document.getElementById('csvtable');
+           table.style.display = 'table';
+ 
+           table.innerHTML = '';
+ 
+           rows.forEach(row => {
+            const cells = row.split(',');
+            const tableRow = document.createElement('tr');
+            
+ 
+            cells.forEach(cell => {
+                const tableCell = document.createElement('td');
+                tableCell.textContent = cell;
+                tableRow.appendChild(tableCell);
+            });
+ 
+            table.appendChild(tableRow);
+           });
+          } catch (error) {
+            console.log(error);
+          }
+        }
+ 
+        const buton = document.getElementById('lb')
+    </script>
+ 
+    
 </body>
 </html>
