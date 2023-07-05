@@ -55,7 +55,6 @@ def charts(request):
         'program_values' : program_values,
         'df26': df26.to_html()
     }
-    print(df26)
     df26.to_csv(os.getcwd()+'/portal/static/portal/data/df26.csv')
  
     return render(request, "portal/charts.html", context)
