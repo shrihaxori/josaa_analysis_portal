@@ -1,12 +1,12 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'portal/styles/predictor.css' %}">
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branch Predictor</title>
+    <title>xlabel Predictor</title>
     <link rel="stylesheet" href="predictor.css">
 </head>
 <body>
@@ -22,36 +22,88 @@
             <ul class="menu">
                 <li><a href="/portal/">Home</a></li>
                 <li><a href="/portal/charts/" id="active">Charts</a> </li>
-                <li><a href="/portal/predict/">Branch Predictor</a></li>
+                <li><a href="/portal/predict/">xlabel Predictor</a></li>
                 <li><a href="/portal/contactus/">Contact</a> </li>
             </ul>
         </nav>
     </header>
-
-
-
+ 
+    
+    <!-- data_template.html -->
+ 
+    <form method="GET" action="{% url 'charts' %}" style = "margin-top: 150px">
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+            <option value="">Select</option>
+            {% for value in category_values %}
+                <option value="{{ value }}" {% if value == request.GET.category %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            {% for value in gender_values %}
+                <option value="{{ value }}" {% if value == request.GET.gender %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="institute">Institute:</label>
+        <select id="institute" name="institute">
+            <option value="">Select</option>
+            {% for value in institute_values %}
+                <option value="{{ value }}" {% if value == request.GET.institute %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="program">Program:</label>
+        <select id="program" name="program">
+            <option value="">Select</option>
+            {% for value in program_values %}
+                <option value="{{ value }}" {% if value == request.GET.program %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <option value="">Select</option>
+            {% for value in year_values %}
+                <option value="{{ value }}" {% if value == request.GET.year %}selected{% endif %}>{{ value }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <button type="submit">Apply Filters</button>
+    </form>
+ 
+<table>
+    <!-- Table rendering code -->
+</table>
+ 
+ 
+ 
+ 
     <!--Charts-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-     <canvas id="myChart" width="800" height="400"></canvas>
-
+ 
+     <canvas id="myChart" width="400" height="200" style="margin-top: 60px"></canvas>
+ 
     <script>
       // Data from: https://data.giss.nasa.gov/gistemp/
       // Mean from: https://earthobservatory.nasa.gov/world-of-change/DecadalTemp
-
+ 
       window.addEventListener('load', setup);
-
+ 
       async function setup() {
         const ctx = document.getElementById('myChart').getContext('2d');
-        const globalTemps = await getData();
+        const orcr = await getData();
         const myChart = new Chart(ctx, {
           type: 'line',
           data: {
-            labels: globalTemps.years,
+            labels: orcr.xlabel,
             datasets: [
               {
-                label: 'Temperature in °C',
-                data: globalTemps.temps,
+                label: 'ylabel',
+                data: orcr.ylabel,
                 fill: false,
                 borderColor: 'rgba(255, 99, 132, 1)',
                 backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -62,26 +114,28 @@
           options: {}
         });
       }
-
+ 
       async function getData() {
         // const response = await fetch('testdata.csv');
-        const response = await fetch('{% static 'portal/data/2022_all_6.csv' %}');
-        console.log(response);
+        const response = await fetch('{% static 'portal/data/df26.csv' %}');
+        // console.log(df26)
         const data = await response.text();
-        const years = [];
-        const temps = [];
+        const xlabel = [];
+        const ylabel = [];
         const rows = data.split('\n').slice(1);
         rows.forEach(row => {
           const cols = row.split(',');
-          years.push(cols[1]);
-          temps.push(parseFloat(cols[7]));
+          xlabel.push(cols[9]);
+          ylabel.push(parseFloat(cols[8]));
         });
-        console.log(temps);
-        return { years, temps };
+        return { xlabel, ylabel };
       }
     </script>
-
+ 
     
     
+ 
+ 
+ 
 </body>
 </html>

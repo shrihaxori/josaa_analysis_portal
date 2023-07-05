@@ -18,7 +18,47 @@ def index(request):
     return render(request, "portal/index.html", context)
 
 def charts(request):
-    return render(request, "portal/charts.html")
+    df26 = pd.read_csv('portal/data/combinedv2.csv', low_memory = False)
+ 
+    category_values = df26['Seat Type'].unique()
+    gender_values = df26['Gender'].unique()
+    institute_values = df26['Institute'].unique()
+    year_values = df26['Year'].unique()
+    round_values = df26['Round'].unique()
+    program_values = df26['Academic Program Name'].unique()
+ 
+    sf1 = request.GET.get('category')
+    sf2 = request.GET.get('gender')
+    sf3 = request.GET.get('institute')
+    sf4 = request.GET.get('year')
+    sf5 = request.GET.get('program')
+ 
+    if sf1:
+        df26 = df26[df26['Seat Type']==sf1]
+    if sf2:
+        df26 = df26[df26['Gender']==sf2]
+    if sf3:
+        df26 = df26[df26['Institute']==sf3]
+    #df26 = df26[df26['Quota']=='AI']
+    df26 = df26[df26['Round']==6]
+    if sf4:
+        sf4 = int(sf4)
+        df26 = df26[df26['Year']==sf4]
+    if sf5:
+        df26 = df26[df26['Academic Program Name']==sf5]
+ 
+    context = {
+        'category_values' : category_values,
+        'gender_values': gender_values,
+        'institute_values': institute_values,
+        'year_values': year_values,
+        'program_values' : program_values,
+        'df26': df26.to_html()
+    }
+    print(df26)
+    df26.to_csv(os.getcwd()+'/portal/static/portal/data/df26.csv')
+ 
+    return render(request, "portal/charts.html", context)
 
 def predict(request):
     df = pd.read_csv('portal/data/combinedv2.csv', low_memory=False)
