@@ -18,7 +18,7 @@ def index(request):
     return render(request, "portal/index.html", context)
 
 def charts(request):
-    df26 = pd.read_csv('portal/data/combinedv2.csv', low_memory = False)
+    df26 = pd.read_csv('portal/data/combinedv3.csv', low_memory = False)
  
     category_values = df26['Seat Type'].unique()
     gender_values = df26['Gender'].unique()
@@ -61,7 +61,7 @@ def charts(request):
     return render(request, "portal/charts.html", context)
 
 def predict(request):
-    df = pd.read_csv('portal/data/combinedv2.csv', low_memory=False)
+    df = pd.read_csv('portal/data/combinedv3.csv', low_memory=False)
     category_values = df['Seat Type'].unique()
     gender_values = df['Gender'].unique()
     institute_values = df['Institute'].unique()
@@ -103,7 +103,71 @@ def predict(request):
     return render(request, "portal/table.html", context)
 
 def contact(request):
-    return render(request, "portal/contact.html")
+    df = pd.read_csv('portal/data/combinedv3.csv', low_memory=False)
+    category_values = df['Seat Type'].unique()
+    gender_values = df['Gender'].unique()
+    institute_values = df['Institute'].unique()
+    year_values = df['Year'].unique()
+    quota_values = df['Quota'].unique()
+    program_values = df['Academic Program Name'].unique()
+
+    sf1 = request.GET.get('category')
+    sf2 = request.GET.get('gender')
+    sf3 = request.GET.get('institute')
+    sf4 = request.GET.get('year')
+    sf5 = request.GET.get('quota')
+    sf6 = request.GET.get('program')
+    mr = request.GET.get('mrank')
+    ar = request.GET.get('arank')
+    margin = request.GET.get('margin')
+ 
+    if sf1:
+        df = df[df['Seat Type']==sf1]
+    if sf2:
+        df = df[df['Gender']==sf2]
+    if sf3:
+        df = df[df['Institute']==sf3]
+    if sf4:
+        sf4 = int(sf4)
+        df = df[df['Year']==sf4]
+    if sf5:
+        df = df[df['Quota']==sf5]
+    if sf6:
+        df = df[df['Academic Program Name']==sf6]
+    if margin:
+        margin = int(margin)
+    else:
+        margin = 0
+    
+    if mr and ar:
+        mr = int(mr)
+        ar = int(ar)
+        df = df[(df['Opening Rank']>= mr-margin) &(df['Opening Rank']<=mr+margin)]
+        df = df[(df['Closing Rank']>= mr-margin) &(df['Closing Rank']<=mr+margin)]
+    elif ar:
+        ar = int(ar)
+        df = df[df['Type']==1]
+        df = df[(df['Opening Rank']>= ar-margin) &(df['Opening Rank']<=ar+margin)]
+        df = df[(df['Closing Rank']>= ar-margin) &(df['Closing Rank']<=ar+margin)]
+    elif mr:
+        mr = int(mr)
+        df = df[(df['Type']==2)]
+        df = df[(df['Opening Rank']>= mr-margin) &(df['Opening Rank']<=mr+margin)]
+        df = df[(df['Closing Rank']>= mr-margin) &(df['Closing Rank']<=mr+margin)]
+
+    print(sf1, sf2, sf3, sf4, sf5, sf6, mr, ar, margin)
+    #df = df.drop(['Type', 'Unnamed: 0'], axis = 1)
+    context = {
+        'category_values' : category_values,
+        'gender_values' : gender_values,
+        'institute_values': institute_values,
+        'year_values': year_values,
+        'quota_values': quota_values,
+        'program_values': program_values,
+    }
+    print(df)
+    df.to_csv(os.getcwd()+'/portal/static/portal/data/df3.csv')
+    return render(request, "portal/contact.html", context)
 
 url = 'https://josaa.admissions.nic.in/applicant/seatmatrix/OpeningClosingRankArchieve.aspx'
 params = {
