@@ -1,521 +1,121 @@
-,Unnamed: 0,Institute,Academic Program Name,Quota,Seat Type,Gender,Opening Rank,Closing Rank,Year,Round
-132,132,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,577,2119,2022,1
-145,145,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,552,1557,2022,1
-153,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1420,2081,2022,1
-165,165,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1664,5323,2022,1
-175,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3418,2022,1
-188,188,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,60,2022,1
-204,204,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1577,2107,2022,1
-215,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,103,369,2022,1
-228,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,374,843,2022,1
-241,241,IIT Bombay,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1116,2381,2022,1
-252,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,39,1397,2022,1
-264,264,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3926,4736,2022,1
-275,275,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,141,1382,2022,1
-288,288,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1409,1492,2022,1
-297,297,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2476,3766,2022,1
-10154,132,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,577,2119,2022,2
-10167,145,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,552,1557,2022,2
-10175,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1420,2081,2022,2
-10187,165,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4360,5336,2022,2
-10197,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,2
-10210,188,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,60,2022,2
-10226,204,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1577,2107,2022,2
-10237,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,103,369,2022,2
-10250,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,374,843,2022,2
-10263,241,IIT Bombay,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1116,2381,2022,2
-10274,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,200,1447,2022,2
-10286,264,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3926,4736,2022,2
-10297,275,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,141,1382,2022,2
-10310,288,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1409,1492,2022,2
-10319,297,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2476,3766,2022,2
-19970,132,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,577,2119,2022,3
-19983,145,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,552,2143,2022,3
-19991,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1420,2081,2022,3
-20003,165,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4360,5336,2022,3
-20013,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,3
-20026,188,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,60,2022,3
-20042,204,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1577,2107,2022,3
-20053,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,103,369,2022,3
-20066,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,374,843,2022,3
-20079,241,IIT Bombay,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1116,2381,2022,3
-20090,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,200,1447,2022,3
-20102,264,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3926,4736,2022,3
-20113,275,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,141,1382,2022,3
-20126,288,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1409,1492,2022,3
-20135,297,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2476,3766,2022,3
-29743,132,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,577,2119,2022,4
-29756,145,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,552,2143,2022,4
-29764,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1420,2081,2022,4
-29776,165,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4360,5336,2022,4
-29786,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,4
-29799,188,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,60,2022,4
-29815,204,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1577,2107,2022,4
-29826,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,103,369,2022,4
-29839,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,374,843,2022,4
-29852,241,IIT Bombay,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1116,2381,2022,4
-29863,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,200,1447,2022,4
-29875,264,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3926,4736,2022,4
-29886,275,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,141,1382,2022,4
-29899,288,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1409,1492,2022,4
-29908,297,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2476,3766,2022,4
-39511,132,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,577,2119,2022,5
-39524,145,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,552,2143,2022,5
-39532,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1420,2081,2022,5
-39544,165,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4360,5336,2022,5
-39554,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3446,2022,5
-39567,188,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,60,2022,5
-39583,204,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1577,2107,2022,5
-39594,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,103,369,2022,5
-39607,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,374,843,2022,5
-39620,241,IIT Bombay,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1116,2381,2022,5
-39631,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,200,1447,2022,5
-39643,264,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3926,4736,2022,5
-39654,275,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,141,1382,2022,5
-39667,288,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1409,1492,2022,5
-39676,297,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2476,3766,2022,5
-49274,132,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,577,2119,2022,6
-49287,145,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,552,2158,2022,6
-49295,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1420,2081,2022,6
-49307,165,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4360,5500,2022,6
-49317,175,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1941,3471,2022,6
-49330,188,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,61,2022,6
-49346,204,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1577,2107,2022,6
-49357,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,103,369,2022,6
-49370,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,374,866,2022,6
-49383,241,IIT Bombay,Energy Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1116,2381,2022,6
-49394,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,200,1452,2022,6
-49406,264,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3926,4736,2022,6
-49417,275,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,141,1406,2022,6
-49430,288,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1409,1492,2022,6
-49439,297,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2476,3783,2022,6
-59004,130,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,123,2003,2021,1
-59017,143,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,198,1602,2021,1
-59025,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1266,2109,2021,1
-59038,164,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4173,5764,2021,1
-59048,174,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2017,3216,2021,1
-59060,186,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,66,2021,1
-59076,202,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,749,1910,2021,1
-59088,214,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,95,420,2021,1
-59102,228,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,495,795,2021,1
-59114,240,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1592,2776,2021,1
-59124,250,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,320,1210,2021,1
-59135,261,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3490,4654,2021,1
-59145,271,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,157,1217,2021,1
-59159,285,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1273,1471,2021,1
-59168,294,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3777,4066,2021,1
-59178,304,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2381,3766,2021,1
-68453,130,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,123,2118,2021,2
-68466,143,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,198,1903,2021,2
-68474,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1266,2139,2021,2
-68486,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4396,5788,2021,2
-68496,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2017,3226,2021,2
-68508,185,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,67,2021,2
-68524,201,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,749,1910,2021,2
-68536,213,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,95,422,2021,2
-68550,227,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,495,795,2021,2
-68562,239,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1592,2787,2021,2
-68572,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,320,1265,2021,2
-68583,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3490,4859,2021,2
-68593,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,157,1234,2021,2
-68607,284,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1273,1471,2021,2
-68616,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3805,4078,2021,2
-68626,303,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2381,3777,2021,2
-77720,130,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,123,2118,2021,3
-77733,143,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,198,1903,2021,3
-77741,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1266,2139,2021,3
-77753,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4396,5788,2021,3
-77763,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2017,3226,2021,3
-77775,185,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,67,2021,3
-77791,201,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,749,1910,2021,3
-77803,213,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,95,422,2021,3
-77817,227,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,495,795,2021,3
-77829,239,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1592,2787,2021,3
-77839,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,320,1265,2021,3
-77850,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3490,4859,2021,3
-77860,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,157,1234,2021,3
-77874,284,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1273,1471,2021,3
-77883,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3805,4078,2021,3
-77893,303,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2381,3777,2021,3
-86958,130,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,123,2118,2021,4
-86971,143,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,198,1903,2021,4
-86979,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1266,2139,2021,4
-86991,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4396,5788,2021,4
-87001,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2017,3226,2021,4
-87013,185,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,67,2021,4
-87029,201,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,749,1910,2021,4
-87041,213,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,95,422,2021,4
-87055,227,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,495,795,2021,4
-87067,239,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1592,2787,2021,4
-87077,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,320,1265,2021,4
-87088,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3490,4859,2021,4
-87098,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,157,1234,2021,4
-87112,284,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1273,1471,2021,4
-87121,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3805,4078,2021,4
-87131,303,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2381,3777,2021,4
-96187,130,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,123,2118,2021,5
-96200,143,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,198,1903,2021,5
-96208,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1266,2139,2021,5
-96220,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4396,5788,2021,5
-96230,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2017,3226,2021,5
-96242,185,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,67,2021,5
-96258,201,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,749,1910,2021,5
-96270,213,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,95,422,2021,5
-96284,227,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,495,795,2021,5
-96296,239,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1592,2787,2021,5
-96306,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,320,1265,2021,5
-96317,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3490,4859,2021,5
-96327,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,157,1234,2021,5
-96341,284,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1273,1471,2021,5
-96350,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3805,4078,2021,5
-96360,303,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2381,3777,2021,5
-105410,130,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,123,2118,2021,6
-105423,143,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,198,1944,2021,6
-105431,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1266,2213,2021,6
-105443,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4396,5788,2021,6
-105453,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2226,3304,2021,6
-105465,185,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,67,2021,6
-105481,201,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,749,2032,2021,6
-105493,213,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,95,434,2021,6
-105507,227,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,495,795,2021,6
-105519,239,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1592,2787,2021,6
-105529,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,320,1324,2021,6
-105540,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3490,4859,2021,6
-105550,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,157,1241,2021,6
-105564,284,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1273,1471,2021,6
-105573,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3963,4204,2021,6
-105583,303,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2381,3830,2021,6
-114593,135,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,807,2070,2020,1
-114604,146,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,128,1511,2020,1
-114611,153,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,832,1922,2020,1
-114624,166,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,2541,5700,2020,1
-114634,176,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1498,3267,2020,1
-114647,189,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,63,2020,1
-114663,205,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,819,2176,2020,1
-114673,215,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,25,288,2020,1
-114687,229,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,301,749,2020,1
-114699,241,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1566,2469,2020,1
-114710,252,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,309,1101,2020,1
-114721,263,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3830,5209,2020,1
-114731,273,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,291,1110,2020,1
-114745,287,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1195,1571,2020,1
-114755,297,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3688,4213,2020,1
-114766,308,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2229,3574,2020,1
-123928,133,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,807,2070,2020,2
-123939,144,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,128,1560,2020,2
-123946,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,832,1922,2020,2
-123958,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,2541,5710,2020,2
-123968,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1498,3299,2020,2
-123981,186,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,66,2020,2
-123997,202,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,819,2176,2020,2
-124007,212,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,25,289,2020,2
-124021,226,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,301,762,2020,2
-124033,238,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1566,2469,2020,2
-124044,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,309,1101,2020,2
-124055,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3830,5209,2020,2
-124065,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,291,1129,2020,2
-124078,283,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1195,1571,2020,2
-124088,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3688,4213,2020,2
-124099,304,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2229,3650,2020,2
-133065,133,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,807,2070,2020,3
-133076,144,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,128,1560,2020,3
-133083,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,832,1922,2020,3
-133095,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,2541,5710,2020,3
-133105,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1498,3299,2020,3
-133118,186,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,66,2020,3
-133134,202,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,819,2176,2020,3
-133144,212,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,25,289,2020,3
-133158,226,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,301,762,2020,3
-133170,238,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1566,2469,2020,3
-133181,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,309,1101,2020,3
-133192,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3830,5209,2020,3
-133202,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,291,1129,2020,3
-133215,283,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1195,1571,2020,3
-133225,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3688,4213,2020,3
-133236,304,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2229,3650,2020,3
-142133,133,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,807,2070,2020,4
-142144,144,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,128,1560,2020,4
-142151,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,832,1922,2020,4
-142163,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,2541,5710,2020,4
-142173,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1498,3299,2020,4
-142186,186,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,66,2020,4
-142202,202,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,819,2176,2020,4
-142212,212,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,25,289,2020,4
-142226,226,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,301,762,2020,4
-142238,238,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1566,2469,2020,4
-142249,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,309,1101,2020,4
-142260,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3830,5209,2020,4
-142270,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,291,1129,2020,4
-142283,283,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1195,1571,2020,4
-142293,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3688,4213,2020,4
-142304,304,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2229,3650,2020,4
-151177,133,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,807,2070,2020,5
-151188,144,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,128,1560,2020,5
-151195,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,832,1922,2020,5
-151207,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,2541,5710,2020,5
-151217,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1498,3299,2020,5
-151230,186,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,66,2020,5
-151246,202,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,819,2176,2020,5
-151256,212,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,25,298,2020,5
-151270,226,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,301,762,2020,5
-151282,238,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1566,2469,2020,5
-151293,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,309,1101,2020,5
-151304,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3830,5209,2020,5
-151314,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,291,1129,2020,5
-151327,283,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1195,1571,2020,5
-151337,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3688,4213,2020,5
-151348,304,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2229,3650,2020,5
-160209,133,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,807,2070,2020,6
-160220,144,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,128,1567,2020,6
-160227,151,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,832,2000,2020,6
-160239,163,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,2541,5976,2020,6
-160249,173,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1498,3388,2020,6
-160262,186,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2,66,2020,6
-160278,202,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,819,2257,2020,6
-160288,212,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,25,298,2020,6
-160302,226,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,301,762,2020,6
-160314,238,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1566,2469,2020,6
-160325,249,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,309,1113,2020,6
-160336,260,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4450,5872,2020,6
-160346,270,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,291,1129,2020,6
-160359,283,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1195,1624,2020,6
-160369,293,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3775,4298,2020,6
-160380,304,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2229,3720,2020,6
-169183,117,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1071,2025,2019,1
-169195,129,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,98,1041,2019,1
-169201,135,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1679,2019,1
-169214,148,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5413,2019,1
-169223,157,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,2782,2019,1
-169238,172,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,1
-169253,187,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1885,2019,1
-169261,195,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,292,2019,1
-169273,207,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,296,554,2019,1
-169284,218,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2378,2019,1
-169293,227,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1202,2019,1
-169302,236,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4856,2019,1
-169310,244,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,998,2019,1
-169324,258,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,1
-169333,267,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3348,3637,2019,1
-169342,276,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3271,2019,1
-177927,117,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1182,2082,2019,2
-177939,129,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,702,1283,2019,2
-177945,135,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1687,2019,2
-177958,148,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5578,2019,2
-177967,157,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,2896,2019,2
-177982,172,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,2
-177997,187,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1885,2019,2
-178005,195,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,296,2019,2
-178017,207,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,306,572,2019,2
-178028,218,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2518,2019,2
-178037,227,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1290,2019,2
-178046,236,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4856,2019,2
-178054,244,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,998,2019,2
-178068,258,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,2
-178077,267,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3354,3686,2019,2
-178086,276,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3348,2019,2
-186397,117,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1182,2082,2019,3
-186409,129,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,702,1283,2019,3
-186415,135,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1687,2019,3
-186428,148,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5626,2019,3
-186437,157,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,2896,2019,3
-186452,172,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,3
-186467,187,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1885,2019,3
-186475,195,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,296,2019,3
-186487,207,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,306,572,2019,3
-186498,218,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2518,2019,3
-186507,227,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1290,2019,3
-186516,236,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4856,2019,3
-186524,244,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,998,2019,3
-186538,258,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,3
-186547,267,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3354,3686,2019,3
-186556,276,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3348,2019,3
-194749,117,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1182,2082,2019,4
-194761,129,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,702,1283,2019,4
-194767,135,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1688,2019,4
-194780,148,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5626,2019,4
-194789,157,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,2896,2019,4
-194804,172,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,4
-194819,187,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1885,2019,4
-194827,195,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,296,2019,4
-194839,207,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,306,572,2019,4
-194850,218,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2518,2019,4
-194859,227,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1290,2019,4
-194868,236,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4856,2019,4
-194876,244,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,998,2019,4
-194890,258,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,4
-194899,267,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3354,3727,2019,4
-194908,276,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3348,2019,4
-203062,117,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1182,2082,2019,5
-203074,129,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,702,1283,2019,5
-203080,135,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1688,2019,5
-203093,148,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5626,2019,5
-203102,157,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,2896,2019,5
-203117,172,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,5
-203132,187,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1885,2019,5
-203140,195,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,296,2019,5
-203152,207,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,306,572,2019,5
-203163,218,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2518,2019,5
-203172,227,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1290,2019,5
-203181,236,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4856,2019,5
-203189,244,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,998,2019,5
-203203,258,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,5
-203212,267,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3354,3727,2019,5
-203221,276,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3348,2019,5
-211362,117,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1182,2082,2019,6
-211374,129,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1041,1631,2019,6
-211380,135,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1694,2019,6
-211393,148,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5626,2019,6
-211402,157,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,2896,2019,6
-211417,172,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,6
-211432,187,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1885,2019,6
-211440,195,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,296,2019,6
-211452,207,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,306,572,2019,6
-211463,218,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2518,2019,6
-211472,227,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1290,2019,6
-211481,236,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4856,2019,6
-211489,244,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,998,2019,6
-211503,258,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,6
-211512,267,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3354,3727,2019,6
-211521,276,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3348,2019,6
-219656,116,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1182,2082,2019,7
-219668,128,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1041,1631,2019,7
-219674,134,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,440,1739,2019,7
-219687,147,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1486,5640,2019,7
-219696,156,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,747,3005,2019,7
-219711,171,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1,63,2019,7
-219726,186,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,1312,1925,2019,7
-219734,194,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,71,296,2019,7
-219746,206,IIT Bombay,Electrical Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,306,572,2019,7
-219757,217,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1016,2606,2019,7
-219766,226,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,347,1290,2019,7
-219775,235,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,4023,4869,2019,7
-219783,243,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,196,999,2019,7
-219797,257,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1097,1294,2019,7
-219806,266,IIT Bombay,Metallurgical Engineering & Materials Science (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3392,4020,2019,7
-219815,275,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,2138,3501,2019,7
-227901,100,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,1974.0,2018,1
-227911,110,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1082.0,2018,1
-227917,116,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1655.0,2018,1
-227926,125,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4203.0,5111.0,2018,1
-227933,132,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2465.0,2018,1
-227946,145,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,1
-227958,157,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,1953.0,2018,1
-227965,164,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,1
-227975,174,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,554.0,2018,1
-227983,182,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,1
-227991,190,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2597.0,2018,1
-227998,197,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,848.0,2018,1
-228006,205,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,4846.0,2018,1
-228013,212,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,845.0,2018,1
-228024,223,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,1
-228032,231,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3089.0,2018,1
-228041,240,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,1
-228047,246,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,1
-235053,98,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,1979.0,2018,2
-235063,108,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1479.0,2018,2
-235069,114,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1691.0,2018,2
-235078,123,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4467.0,5371.0,2018,2
-235085,130,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2525.0,2018,2
-235098,143,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,2
-235110,155,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,2086.0,2018,2
-235117,162,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,2
-235127,172,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,556.0,2018,2
-235135,180,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,2
-235143,188,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2597.0,2018,2
-235150,195,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,924.0,2018,2
-235158,203,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,5045.0,2018,2
-235165,210,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,848.0,2018,2
-235176,221,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,2
-235184,229,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3154.0,2018,2
-235193,238,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,2
-235199,244,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,2
-241979,98,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,1979.0,2018,3
-241989,108,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1479.0,2018,3
-241995,114,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1691.0,2018,3
-242004,123,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4467.0,5371.0,2018,3
-242011,130,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2525.0,2018,3
-242024,143,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,3
-242036,155,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,2086.0,2018,3
-242043,162,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,3
-242053,172,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,556.0,2018,3
-242061,180,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,3
-242069,188,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2597.0,2018,3
-242076,195,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,924.0,2018,3
-242084,203,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,5045.0,2018,3
-242091,210,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,848.0,2018,3
-242102,221,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,3
-242110,229,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3154.0,2018,3
-242119,238,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,3
-242125,244,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,3
-248786,99,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,1979.0,2018,4
-248796,109,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1479.0,2018,4
-248802,115,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1704.0,2018,4
-248811,124,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4467.0,5371.0,2018,4
-248818,131,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2525.0,2018,4
-248831,144,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,4
-248843,156,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,2088.0,2018,4
-248850,163,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,4
-248860,173,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,556.0,2018,4
-248868,181,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,4
-248876,189,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2597.0,2018,4
-248883,196,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,924.0,2018,4
-248891,204,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,5045.0,2018,4
-248898,211,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,848.0,2018,4
-248909,222,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,4
-248917,230,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3154.0,2018,4
-248926,239,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,4
-248932,245,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,4
-255551,99,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,1987.0,2018,5
-255561,109,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1479.0,2018,5
-255567,115,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1704.0,2018,5
-255576,124,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4467.0,5371.0,2018,5
-255583,131,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2544.0,2018,5
-255596,144,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,5
-255608,156,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,2088.0,2018,5
-255615,163,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,5
-255625,173,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,556.0,2018,5
-255633,181,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,5
-255641,189,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2597.0,2018,5
-255648,196,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,981.0,2018,5
-255655,203,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,5061.0,2018,5
-255662,210,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,848.0,2018,5
-255673,221,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,5
-255681,229,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3154.0,2018,5
-255690,238,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,5
-255696,244,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,5
-262305,99,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,1987.0,2018,6
-262315,109,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1479.0,2018,6
-262321,115,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1704.0,2018,6
-262330,124,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4467.0,5414.0,2018,6
-262337,131,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2544.0,2018,6
-262350,144,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,6
-262362,156,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,2088.0,2018,6
-262369,163,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,6
-262379,173,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,556.0,2018,6
-262387,181,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,6
-262395,189,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2684.0,2018,6
-262402,196,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,981.0,2018,6
-262409,203,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,5061.0,2018,6
-262416,210,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,848.0,2018,6
-262427,221,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,6
-262435,229,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3182.0,2018,6
-262444,238,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,6
-262450,244,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,6
-269050,98,IIT Bombay,Aerospace Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1040.0,2053.0,2018,7
-269060,108,IIT Bombay,BS in Mathematics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,742.0,1479.0,2018,7
-269066,114,IIT Bombay,Chemical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,653.0,1721.0,2018,7
-269075,123,IIT Bombay,Chemistry (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,4467.0,5628.0,2018,7
-269082,130,IIT Bombay,Civil Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1443.0,2544.0,2018,7
-269095,143,IIT Bombay,Computer Science and Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1.0,59.0,2018,7
-269107,155,IIT Bombay,Economics (4 Years Bachelor of Science),AI,OPEN,Gender-Neutral,780.0,2088.0,2018,7
-269114,162,IIT Bombay,Electrical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,43.0,265.0,2018,7
-269124,172,IIT Bombay,Electrical Engineering with M.Tech. in Communications and Signal Processing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,275.0,556.0,2018,7
-269132,180,IIT Bombay,Electrical Engineering with M.Tech. in Microelectronics (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,284.0,446.0,2018,7
-269140,188,IIT Bombay,Energy Engineering with M.Tech. in Energy Systems Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,1579.0,2684.0,2018,7
-269147,195,IIT Bombay,Engineering Physics (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,85.0,993.0,2018,7
-269154,202,IIT Bombay,Environmental Science and Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,2260.0,5093.0,2018,7
-269161,209,IIT Bombay,Mechanical Engineering (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,305.0,848.0,2018,7
-269172,220,IIT Bombay,Mechanical Engineering and M.Tech. in Computer Integrated Manufacturing (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,888.0,1128.0,2018,7
-269180,228,IIT Bombay,Metallurgical Engineering and Materials Science (4 Years Bachelor of Technology),AI,OPEN,Gender-Neutral,1010.0,3182.0,2018,7
-269189,237,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Ceramics and Composites (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3379.0,3525.0,2018,7
-269195,243,IIT Bombay,Metallurgical Engineering and Materials Science with M.Tech. in Metallurgical Process Engineering (5 Years Bachelor and Master of Technology (Dual Degree)),AI,OPEN,Gender-Neutral,3185.0,3344.0,2018,7
+,Unnamed: 0,Institute,Academic Program Name,Quota,Seat Type,Gender,Opening Rank,Closing Rank,Year,Round,Type
+6987,7080,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),HS,OPEN,Gender-Neutral,296,797,2022,1,2
+6997,7090,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),OS,OPEN,Gender-Neutral,42,234,2022,1,2
+7008,7101,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10462,21206,2022,1,2
+7019,7112,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8691,12165,2022,1,2
+7030,7123,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,17581,29506,2022,1,2
+7043,7136,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2826,16600,2022,1,2
+7056,7149,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,1528,3730,2022,1,2
+7069,7162,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,96,759,2022,1,2
+7081,7174,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,4515,9847,2022,1,2
+7093,7186,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2180,5604,2022,1,2
+7106,7199,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,3831,7437,2022,1,2
+7117,7210,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,1447,3288,2022,1,2
+7130,7223,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,11299,15473,2022,1,2
+7141,7234,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8107,12435,2022,1,2
+7153,7246,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10095,13933,2022,1,2
+7166,7259,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4198,8445,2022,1,2
+7179,7272,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,19886,29036,2022,1,2
+7190,7283,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,12960,19721,2022,1,2
+7201,7294,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,15671,23587,2022,1,2
+7213,7306,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,14374,20743,2022,1,2
+16796,16981,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),HS,OPEN,Gender-Neutral,296,797,2022,2,2
+16805,16990,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),OS,OPEN,Gender-Neutral,162,248,2022,2,2
+16815,17000,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10462,21225,2022,2,2
+16826,17011,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8691,13375,2022,2,2
+16837,17022,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,21532,36188,2022,2,2
+16850,17035,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2826,18326,2022,2,2
+16863,17048,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,1528,3868,2022,2,2
+16876,17061,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,241,759,2022,2,2
+16888,17073,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,8353,11350,2022,2,2
+16900,17085,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4157,5928,2022,2,2
+16913,17098,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,4080,8252,2022,2,2
+16924,17109,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,1581,3522,2022,2,2
+16937,17122,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,11951,16804,2022,2,2
+16948,17133,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8107,13352,2022,2,2
+16960,17145,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10395,15835,2022,2,2
+16973,17158,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4842,9593,2022,2,2
+16986,17171,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,22713,32381,2022,2,2
+16997,17182,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,16011,20619,2022,2,2
+17007,17192,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,17993,26317,2022,2,2
+17019,17204,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,14374,24590,2022,2,2
+26501,26777,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),HS,OPEN,Gender-Neutral,296,797,2022,3,2
+26510,26786,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),OS,OPEN,Gender-Neutral,162,248,2022,3,2
+26520,26796,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10462,21225,2022,3,2
+26531,26807,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8691,13375,2022,3,2
+26542,26818,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,21532,36237,2022,3,2
+26555,26831,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2826,18601,2022,3,2
+26568,26844,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,1528,3868,2022,3,2
+26581,26857,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,241,858,2022,3,2
+26593,26869,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,8353,11350,2022,3,2
+26605,26881,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4157,5928,2022,3,2
+26618,26894,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,4132,8338,2022,3,2
+26629,26905,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,1581,3522,2022,3,2
+26642,26918,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,11951,16804,2022,3,2
+26653,26929,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8107,13352,2022,3,2
+26665,26941,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10395,15835,2022,3,2
+26678,26954,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4842,9593,2022,3,2
+26691,26967,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,22713,32381,2022,3,2
+26702,26978,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,16011,20619,2022,3,2
+26712,26988,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,17993,26326,2022,3,2
+26724,27000,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,14374,24590,2022,3,2
+36183,36550,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),HS,OPEN,Gender-Neutral,296,797,2022,4,2
+36192,36559,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),OS,OPEN,Gender-Neutral,162,248,2022,4,2
+36202,36569,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10462,21225,2022,4,2
+36213,36580,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8691,13375,2022,4,2
+36224,36591,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,21532,36237,2022,4,2
+36237,36604,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2826,18601,2022,4,2
+36250,36617,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,1528,3868,2022,4,2
+36263,36630,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,241,858,2022,4,2
+36275,36642,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,8353,11350,2022,4,2
+36287,36654,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4157,5965,2022,4,2
+36300,36667,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,4132,8338,2022,4,2
+36311,36678,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,1581,3522,2022,4,2
+36324,36691,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,11951,16804,2022,4,2
+36335,36702,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8107,13352,2022,4,2
+36347,36714,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10395,15835,2022,4,2
+36360,36727,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4842,9593,2022,4,2
+36373,36740,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,22713,32381,2022,4,2
+36384,36751,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,16011,20619,2022,4,2
+36394,36761,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,17993,26326,2022,4,2
+36406,36773,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,14374,24751,2022,4,2
+45856,46314,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),HS,OPEN,Gender-Neutral,296,797,2022,5,2
+45865,46323,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),OS,OPEN,Gender-Neutral,162,248,2022,5,2
+45875,46333,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10462,21225,2022,5,2
+45886,46344,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8691,13375,2022,5,2
+45897,46355,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,21532,36321,2022,5,2
+45910,46368,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2826,18601,2022,5,2
+45923,46381,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,1528,3868,2022,5,2
+45936,46394,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,241,879,2022,5,2
+45948,46406,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,8353,11350,2022,5,2
+45960,46418,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4157,6141,2022,5,2
+45973,46431,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,4132,8338,2022,5,2
+45984,46442,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,1581,3522,2022,5,2
+45997,46455,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,11951,16804,2022,5,2
+46008,46466,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8107,13416,2022,5,2
+46020,46478,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10395,15835,2022,5,2
+46033,46491,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4842,9593,2022,5,2
+46046,46504,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,22713,32381,2022,5,2
+46057,46515,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,16011,20672,2022,5,2
+46067,46525,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,17993,26326,2022,5,2
+46079,46537,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,14374,25021,2022,5,2
+55506,56059,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),HS,OPEN,Gender-Neutral,296,797,2022,6,2
+55515,56068,NIT Tiruchirappalli,Architecture (5 Years Bachelor of Architecture),OS,OPEN,Gender-Neutral,162,248,2022,6,2
+55525,56078,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10462,21225,2022,6,2
+55536,56089,NIT Tiruchirappalli,Chemical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8691,15269,2022,6,2
+55547,56100,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,21532,37038,2022,6,2
+55560,56113,NIT Tiruchirappalli,Civil Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,2826,19611,2022,6,2
+55573,56126,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,1528,4080,2022,6,2
+55586,56139,NIT Tiruchirappalli,Computer Science and Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,241,996,2022,6,2
+55598,56151,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,9478,12142,2022,6,2
+55610,56163,NIT Tiruchirappalli,Electrical and Electronics Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4157,6636,2022,6,2
+55623,56176,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,4132,8392,2022,6,2
+55634,56187,NIT Tiruchirappalli,Electronics and Communication Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,1581,3691,2022,6,2
+55647,56200,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,12561,17704,2022,6,2
+55658,56211,NIT Tiruchirappalli,Instrumentation and Control Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,8107,13820,2022,6,2
+55670,56223,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,10395,16341,2022,6,2
+55683,56236,NIT Tiruchirappalli,Mechanical Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,4842,10181,2022,6,2
+55696,56249,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,22713,33757,2022,6,2
+55707,56260,NIT Tiruchirappalli,Metallurgical and Materials Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,16011,22850,2022,6,2
+55717,56270,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),HS,OPEN,Gender-Neutral,17993,27154,2022,6,2
+55729,56282,NIT Tiruchirappalli,Production Engineering (4 Years Bachelor of Technology),OS,OPEN,Gender-Neutral,14374,25823,2022,6,2

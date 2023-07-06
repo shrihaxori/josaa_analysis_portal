@@ -134,6 +134,7 @@ def contact(request):
         df = df[df['Quota']==sf5]
     if sf6:
         df = df[df['Academic Program Name']==sf6]
+
     if margin:
         margin = int(margin)
     else:
@@ -142,20 +143,16 @@ def contact(request):
     if mr and ar:
         mr = int(mr)
         ar = int(ar)
-        df = df[(df['Opening Rank']>= mr-margin) &(df['Opening Rank']<=mr+margin)]
-        df = df[(df['Closing Rank']>= mr-margin) &(df['Closing Rank']<=mr+margin)]
+        df = df[((df['Closing Rank']<= ar+margin) & (df['Closing Rank']>= ar-margin) & (df['Type']==1))| ((df['Closing Rank']<=mr+margin) & (df['Closing Rank']>=mr-margin) & ((df['Type']==2) | (df['Type']==4) | (df['Type']==3)))]
     elif ar:
         ar = int(ar)
         df = df[df['Type']==1]
-        df = df[(df['Opening Rank']>= ar-margin) &(df['Opening Rank']<=ar+margin)]
-        df = df[(df['Closing Rank']>= ar-margin) &(df['Closing Rank']<=ar+margin)]
+        df = df[(df['Closing Rank']<= ar+margin) & (df['Closing Rank']>= ar-margin)]
     elif mr:
         mr = int(mr)
-        df = df[(df['Type']==2)]
-        df = df[(df['Opening Rank']>= mr-margin) &(df['Opening Rank']<=mr+margin)]
-        df = df[(df['Closing Rank']>= mr-margin) &(df['Closing Rank']<=mr+margin)]
+        df = df[((df['Closing Rank']<=mr+margin) & (df['Closing Rank']>=mr-margin) & ((df['Type']==2) | (df['Type']==4) | (df['Type']==3)))]
 
-    print(sf1, sf2, sf3, sf4, sf5, sf6, mr, ar, margin)
+    #print(sf1, sf2, sf3, sf4, sf5, sf6, mr, ar, margin)
     #df = df.drop(['Type', 'Unnamed: 0'], axis = 1)
     context = {
         'category_values' : category_values,
@@ -165,7 +162,6 @@ def contact(request):
         'quota_values': quota_values,
         'program_values': program_values,
     }
-    print(df)
     df.to_csv(os.getcwd()+'/portal/static/portal/data/df3.csv')
     return render(request, "portal/contact.html", context)
 
